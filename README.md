@@ -31,3 +31,7 @@ Edit `data/products.json`. Prices, sizes, image sources and other data change in
 ## Audit changes
 - Removed Tailwind CDN in production, SVG product drawing generators, fake upload controls, unverified bot status, irrelevant stock promises, unsupported shipping claims, animation-heavy grain, marquee and visual gradients.
 - Added semantic links, accessible view controls, mobile menu, dark/light theme, lazy image loading, meta tags, meaningful alt text, focus states, smaller image files, robust missing-file handling.
+
+## Mobile UI (revision 03)
+
+Simplified header with Shop and Menu, theme switch inside the mobile menu, photo-first hero, two-column mobile product register, compact filters, and product title/price above the gallery. Unicode emoji and decorative arrow symbols were removed from visible page copy. Product data and photographs were not changed.
