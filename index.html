@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="theme-color" content="#11110f" />
+  <meta name="description" content="VOIDKIN — independent conceptual streetwear. Made to disrupt the ordinary." />
+  <title>VOIDKIN® — Clothing for outsiders</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/styles.css" />
+  <script defer src="/app.js"></script>
+</head>
+<body>
+  <div class="announcement"><span class="announce-dot"></span> INDEPENDENT STREETWEAR / FIRST DROP <span class="announce-end">EST. 2026 — EUROPE</span></div>
+  <header class="nav" id="top">
+    <a class="wordmark" href="#top" aria-label="Voidkin homepage">VOIDKIN<span class="reg">®</span></a>
+    <nav class="navlinks" aria-label="Main navigation"><a href="#collection">COLLECTION</a><a href="#about">MANIFESTO</a><a href="#information">INFORMATION</a></nav>
+    <button class="bag" id="bag-open" type="button" aria-label="Open shopping bag">BAG <span id="bag-count">(0)</span> <span class="bag-plus">↗</span></button>
+  </header>
+
+  <main>
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-image"><img src="/assets/obsidian-burgundy.webp" alt="VOIDKIN oversized burgundy graphic t-shirt, front and back" fetchpriority="high" /><span class="hero-grain" aria-hidden="true"></span></div>
+      <div class="hero-content"><div class="hero-kicker"><span class="orbit">✳</span> NONCONFORMITY IS A UNIFORM</div><h1 id="hero-title">WEAR<br>YOUR<br><em>OTHERNESS.</em></h1><div class="hero-bottom"><p>Clothing for the ones who never quite fit the frame.</p><a href="#collection" class="cta">EXPLORE DROP 001 <span>↗</span></a></div></div>
+      <div class="hero-index">01 / 03 <span>SCROLL TO DISCOVER ↓</span></div>
+    </section>
+
+    <div class="marquee" aria-hidden="true"><div>VOIDKIN — NOT MADE TO FIT IN ✳ VOIDKIN — NOT MADE TO FIT IN ✳ VOIDKIN — NOT MADE TO FIT IN ✳ &nbsp;</div></div>
+
+    <section class="collection wrap" id="collection" aria-labelledby="collection-heading">
+      <div class="section-top"><div><p class="eyebrow">[ 001 — THE COLLECTION ]</p><h2 id="collection-heading">CURRENT <span>OBSESSIONS.</span></h2></div><div class="section-aside">UNISEX / OVERSIZED / UNCOMPROMISING <span>↘</span></div></div>
+      <div class="product-grid" id="product-grid"></div>
+      <div class="collection-foot"><span>✳</span><p>Small drops. Loud ideas. Nothing made for everyone.</p><span>003 OBJECTS</span></div>
+    </section>
+
+    <section class="editorial" id="about"><div class="editorial-media"><img src="/assets/spectral-lilac.webp" alt="VOIDKIN lavender oversized t-shirt with illustrated back artwork" loading="lazy"/></div><div class="editorial-copy"><p class="eyebrow">[ THIS IS NOT A BASIC ]</p><h2>NOT HERE<br>TO BE<br><i>LIKED.</i></h2><p>VOIDKIN exists for expression without permission. Unfiltered graphics. Oversized silhouettes. Stories that refuse to stay quiet.</p><a href="#collection" class="text-link">FIND YOUR PIECE <span>↗</span></a><div class="asterisk">✳</div></div></section>
+
+    <section class="principles wrap" aria-labelledby="principles-title"><div class="section-top"><div><p class="eyebrow">[ 002 — IN OUR DNA ]</p><h2 id="principles-title">NO <span>APOLOGIES.</span></h2></div></div><div class="principle-grid"><div><span>01 /</span><h3>UNISEX ALWAYS</h3><p>No labels. No boxes. Just silhouettes that speak for themselves.</p></div><div><span>02 /</span><h3>ART FIRST</h3><p>Every graphic starts with an idea worth putting into the world.</p></div><div><span>03 /</span><h3>YOUR RULES</h3><p>Style is personal. The rest is background noise.</p></div></div></section>
+  </main>
+
+  <footer id="information"><div class="footer-main"><p>THE NEXT VERSION OF YOU DOESN'T ASK PERMISSION.</p><div class="footer-logo">VOIDKIN<span>®</span></div><div class="footer-links"><a href="#collection">SHOP THE DROP ↗</a><a href="mailto:hello@voidkin.example" id="contact-link">CONTACT ↗</a><button id="shipping-open" type="button">SHIPPING & RETURNS ↗</button></div></div><div class="footer-bottom"><span>© <span id="year"></span> VOIDKIN. ALL RIGHTS RESERVED.</span><span>INDEPENDENT BY DESIGN.</span><a href="#top">BACK TO TOP ↑</a></div></footer>
+
+  <div class="overlay" id="overlay" hidden></div>
+  <aside class="drawer" id="drawer" aria-label="Shopping bag" aria-modal="true" role="dialog" aria-hidden="true" inert><div class="drawer-head"><div><span class="eyebrow">YOUR SELECTION</span><h2>BAG <span id="drawer-count">(0)</span></h2></div><button class="icon-button" type="button" data-close aria-label="Close bag">×</button></div><div id="bag-items" class="bag-items"></div><div class="drawer-bottom"><div class="subtotal"><span>SUBTOTAL</span><strong id="subtotal">€0.00</strong></div><p class="shipping-note">Shipping calculated separately. No online payment is taken here.</p><button id="checkout-btn" type="button" class="button-dark">CHECKOUT VIA TELEGRAM ↗</button></div></aside>
+
+  <section class="checkout-modal" id="checkout-modal" aria-label="Order request" aria-modal="true" role="dialog" aria-hidden="true" inert><div class="checkout-heading"><div><p class="eyebrow">CHECKOUT / MANUAL CONFIRMATION</p><h2>PLACE A REQUEST<span>.</span></h2></div><button class="icon-button" type="button" data-close aria-label="Close checkout">×</button></div><p class="checkout-intro">Submit your selection to VOIDKIN via Telegram. We'll contact you to confirm availability, shipping and payment. <strong>This is not a paid order.</strong></p><form id="order-form"><label>Your name <input type="text" name="name" maxlength="80" autocomplete="name" required placeholder="Name" /></label><label>Telegram username or email <input type="text" name="contact" maxlength="120" required placeholder="@username or email@example.com" /></label><label>Shipping country <input type="text" name="country" maxlength="80" autocomplete="country-name" required placeholder="Estonia" /></label><label>Notes <span>(optional)</span><textarea name="note" maxlength="500" rows="3" placeholder="Questions, preferred delivery method…"></textarea></label><div class="honey" aria-hidden="true"><label>Website <input type="text" name="website" autocomplete="off" tabindex="-1" /></label></div><label class="consent"><input type="checkbox" name="consent" required /><span>I agree that the information above will be sent to VOIDKIN via Telegram to process this order request.</span></label><div class="order-status" id="order-status" role="status" aria-live="polite"></div><button type="submit" class="button-dark" id="order-submit">SEND ORDER REQUEST ↗</button><p class="fineprint">We do not process card payments on this website. Final price, stock and delivery must be confirmed before payment.</p></form></section>
+
+  <section class="info-modal" id="info-modal" aria-label="Shipping and returns" aria-modal="true" role="dialog" aria-hidden="true" inert><button class="icon-button info-close" type="button" data-close aria-label="Close information">×</button><p class="eyebrow">[ INFORMATION ]</p><h2>BEFORE YOU ORDER.</h2><p>Shipping destinations, costs and delivery times are confirmed individually before payment. Product prices and availability are provisional until confirmed by VOIDKIN.</p><p>For eligible EU distance purchases, consumers generally have a 14-day withdrawal right after receiving goods, subject to legal exceptions. The final store policy and merchant details must be added before public launch.</p><p>For questions, use the order form and leave a note. No charge is made on this site.</p></section>
+</body>
+</html>
