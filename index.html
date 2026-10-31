@@ -1,29 +1,1662 @@
-<!doctype html>
-<html lang="en" data-theme="light"><head>
-<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="theme-color" content="#F4F4F2">
-<meta name="description" content="VOIDKIN — clothing documenting anxiety, isolation and consumer absurdity."><title>Home — VOIDKIN</title>
-<link rel="icon" href="/assets/mark.svg" type="image/svg+xml"><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="/assets/site.css"><script src="/assets/site.js" type="module" defer></script>
-</head><body data-page="home" >
-<a class="skip-link" href="#main">SKIP TO MAIN CONTENT</a>
-<div class="bureau-strip"><span>DEPARTMENT OF UNRESOLVED MATTERS</span><span class="bureau-strip__right">PUBLIC ACCESS / FILE 001</span></div>
-<header class="site-header" id="top"><a class="brand" href="/index.html" aria-label="VOIDKIN — home"><span class="brand__wordmark">VOIDKIN</span><span class="brand__reg">®</span></a>
-<nav class="desktop-nav" aria-label="Main navigation"><a href="/shop.html" >SHOP</a><a href="/case-files.html" >CASE FILES</a><a href="/about.html" >ABOUT</a><a href="/contact.html" >CONTACT</a></nav><div class="header-controls">
-<button class="theme-switch" type="button" data-theme-toggle aria-label="Switch color theme" title="Switch color theme"><span aria-hidden="true">◐</span><span class="theme-switch__text">MODE</span></button>
-<a class="bag-link" href="/cart.html" aria-label="Bag"><span>BAG</span><span data-bag-count>00</span></a>
-<button class="menu-switch" type="button" data-menu-toggle aria-expanded="false" aria-controls="mobile-nav">MENU<span class="menu-switch__icon" aria-hidden="true">☰</span></button>
-</div></header>
-<nav class="mobile-nav" id="mobile-nav" aria-label="Mobile navigation" hidden><a href="/shop.html" >SHOP</a><a href="/case-files.html" >CASE FILES</a><a href="/about.html" >ABOUT</a><a href="/contact.html" >CONTACT</a><a href="/shipping-returns.html">SHIPPING / RETURNS</a><a href="/faq.html">FAQ</a></nav>
-<main id="main">
-<section class="hero section-in" aria-labelledby="hero-title"><div class="hero__copy"><div class="eyebrow"><span class="status-dot"></span><span>CATALOGUE NO. 001 / OPEN FILE</span></div><div class="hero__main"><p class="field-note">DOCUMENTED SUBJECT: THE HUMAN CONDITION</p><h1 id="hero-title">VOID<br>KIN<span class="hero__period">.</span></h1><div class="hero__caption"><span>ANXIOUS OBJECTS<br>FOR DAILY USE.</span><span class="micro">EST. / UNDER REVIEW</span></div></div><div class="hero__bottom"><a class="btn btn-dark" href="/shop.html">EXAMINE COLLECTION <span aria-hidden="true">↗</span></a><span class="micro">SCROLL TO REVIEW ↓</span></div></div>
-<div class="hero__image"><img src="/assets/img/violence-model-back.webp" alt="Back view of a model wearing the burgundy Violence Is On Sale tee against a neutral grey background" fetchpriority="high" width="640" height="853"><div class="image-label"><span>EXHIBIT A / 0134</span><span>PHOTOGRAPHIC RECORD</span></div></div></section>
-<section class="manifest-strip" aria-label="Brand statement"><span>01 / STATEMENT</span><p>VOIDKIN documents anxiety, isolation and the absurdity of consuming things we hope will make us feel less of both.</p><span class="manifest-strip__mark">*</span></section>
-<section class="section-wrap catalogue-preview section-in" aria-labelledby="collection-heading"><div class="section-head"><div><span class="eyebrow">DEPARTMENT 01 / ISSUED ARTICLES</span><h2 id="collection-heading">CURRENT<br>COLLECTION<span class="endmark">.</span></h2></div><div class="section-head__side"><span>ISSUE 001</span><span>05 RECORDS ON FILE</span><a class="text-link" href="/shop.html">VIEW COMPLETE REGISTER ↗</a></div></div><div class="product-grid product-grid--home" data-featured-products aria-live="polite"></div></section>
-<section class="section-wrap cases-preview section-in" aria-labelledby="cases-heading"><div class="section-head"><div><span class="eyebrow">DEPARTMENT 02 / CASE STUDIES</span><h2 id="cases-heading">CASE FILES<span class="endmark">.</span></h2></div><p class="section-description">Each graphic is a short report. The original incident remains unresolved.</p></div><div class="case-grid" data-case-preview></div><a class="border-link" href="/case-files.html"><span>OPEN ALL CASE FILES</span><span aria-hidden="true">↗</span></a></section>
-<section class="newsletter section-in" aria-labelledby="newsletter-heading"><div class="newsletter__copy"><span class="eyebrow">COMMUNICATIONS DEPARTMENT / NOTICES</span><h2 id="newsletter-heading">UPDATES.<br>NOT REASSURANCE.</h2><p>Collection notices and new case records. No inspirational messages.</p></div><div class="newsletter__form"><form data-newsletter-form><label for="newsletter-email">EMAIL ADDRESS</label><div class="input-action"><input id="newsletter-email" name="email" type="email" autocomplete="email" placeholder="name@example.com" required><button type="submit">FILE REQUEST ↗</button></div><p class="form-note" data-newsletter-status role="status">Preview only: mailing list is not connected. No email will be stored.</p></form></div></section>
-</main>
-<footer class="site-footer"><div class="footer-top"><div><div class="footer-kicker">CLOSING REMARKS / 001</div><a href="/index.html" class="footer-wordmark">VOIDKIN</a><p>An independent record of the things we carry.</p></div><div class="footer-links"><div><span>INDEX</span><a href="/shop.html">Catalog</a><a href="/case-files.html">Case Files</a><a href="/about.html">Manifesto</a></div><div><span>ADMINISTRATION</span><a href="/contact.html">Contact</a><a href="/shipping-returns.html">Shipping & returns</a><a href="/faq.html">FAQ</a></div></div></div>
-<div class="footer-bottom"><span>© VOIDKIN / ALL ITEMS SUBJECT TO REVISION</span><span class="tiny-mark" aria-label="oidkin mark placeholder">oidkin</span><a href="#top">BACK TO TOP ↑</a></div></footer>
-<div class="toast" role="status" aria-live="polite" aria-atomic="true" id="notice" hidden></div>
-</body></html>
+<!DOCTYPE html>
+<html lang="ru" class="dark scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>VOIDKIN — DROP 01 // VIOLENCE IS ON SALE | Official Archive & Store</title>
+  <meta name="description" content="VOIDKIN — андерграундный бренд уличной одежды. DROP 01: оверсайз футболки и худи из плотного хлопка 250–420 г/м² с кислотной стиркой и шелкографией. Прямой заказ через Telegram-бота." />
+
+  <!-- OpenGraph / Telegram / VK / Instagram Link Preview Meta Tags -->
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="VOIDKIN ARCHIVE" />
+  <meta property="og:title" content="VOIDKIN — DROP 01 // VIOLENCE IS ON SALE" />
+  <meta property="og:description" content="Heavyweight Streetwear 250–420 GSM. Acid Wash, Brutalist Graphics, Boxy Fit. Оформление заказа в 1 клик через Telegram-бота @voidkin_bot." />
+  <meta property="og:image" content="https://voidkin-store.vercel.app/assets/og-voidkin.jpg" />
+  <meta property="og:url" content="https://voidkin-store.vercel.app/" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="VOIDKIN — DROP 01 // ARCHIVE ONLINE" />
+  <meta name="twitter:description" content="Underground streetwear. Know Your Rats / Violence Is On Sale. Order directly via Telegram Bot." />
+  <meta name="theme-color" content="#0E0E10" />
+
+  <!-- Google Fonts: Unbounded (Brutalist Display), Anton (Aggressive Impact), JetBrains Mono (Technical Mono) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=JetBrains+Mono:ital,wght@0,300;0,400;0,500;0,700;1,400&family=Unbounded:wght@600;800;900&display=swap" rel="stylesheet">
+
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          colors: {
+            void: {
+              bg: '#0E0E10',
+              surface: '#141416',
+              card: '#18181B',
+              white: '#F2F2F2',
+              muted: '#888890',
+              lavender: '#8B80A8',
+              burgundy: '#4A2329',
+              red: '#FF2A2A',
+              graphite: '#1A1A1D'
+            }
+          },
+          fontFamily: {
+            display: ['Unbounded', 'sans-serif'],
+            poster: ['Anton', 'Impact', 'sans-serif'],
+            mono: ['JetBrains Mono', 'monospace']
+          }
+        }
+      }
+    }
+  </script>
+
+  <style>
+    :root {
+      --border-industrial: rgba(242, 242, 242, 0.12);
+      --border-strong: rgba(242, 242, 242, 0.32);
+    }
+
+    * {
+      box-sizing: border-box;
+      selection-background-color: #FF2A2A;
+      selection-color: #0E0E10;
+    }
+
+    ::selection {
+      background: #FF2A2A;
+      color: #0E0E10;
+    }
+
+    body {
+      background-color: #0E0E10;
+      color: #F2F2F2;
+      font-family: 'JetBrains Mono', monospace;
+      overflow-x: hidden;
+    }
+
+    /* Animated Film Grain & Noise Overlay */
+    .grain-overlay {
+      position: fixed;
+      inset: -100%;
+      width: 300%;
+      height: 300%;
+      background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.82' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)' opacity='0.055'/%3E%3C/svg%3E");
+      pointer-events: none;
+      z-index: 90;
+      animation: grainShift 7s steps(8) infinite;
+    }
+
+    @keyframes grainShift {
+      0%, 100% { transform: translate(0, 0); }
+      10% { transform: translate(-3%, -4%); }
+      30% { transform: translate(2%, -2%); }
+      50% { transform: translate(-4%, 3%); }
+      70% { transform: translate(3%, 4%); }
+      90% { transform: translate(-2%, 1%); }
+    }
+
+    /* Brutalist 1px Grid Lines */
+    .b-border {
+      border-color: var(--border-industrial);
+    }
+    .b-border-t { border-top: 1px solid var(--border-industrial); }
+    .b-border-b { border-bottom: 1px solid var(--border-industrial); }
+    .b-border-l { border-left: 1px solid var(--border-industrial); }
+    .b-border-r { border-right: 1px solid var(--border-industrial); }
+    .b-box { border: 1px solid var(--border-industrial); }
+
+    /* Raw Concrete Background Texture Pattern */
+    .concrete-bg {
+      background-color: #111114;
+      background-image:
+        radial-gradient(circle at 20% 25%, rgba(139, 128, 168, 0.12) 0%, transparent 45%),
+        radial-gradient(circle at 80% 70%, rgba(74, 35, 41, 0.22) 0%, transparent 50%),
+        repeating-linear-gradient(0deg, rgba(242, 242, 242, 0.015) 0px, rgba(242, 242, 242, 0.015) 1px, transparent 1px, transparent 4px);
+    }
+
+    /* Marquee Ticker Animation */
+    .marquee-track {
+      display: flex;
+      width: max-content;
+      animation: marqueeScroll 28s linear infinite;
+    }
+    .marquee-track:hover {
+      animation-play-state: paused;
+    }
+    @keyframes marqueeScroll {
+      0% { transform: translateX(0); }
+      100% { transform: translateX(-50%); }
+    }
+
+    /* Product Card Hover View Switch */
+    .product-card .view-back {
+      opacity: 0;
+      transform: scale(1.02);
+      transition: opacity 0.35s cubic-bezier(0.16, 1, 0.3, 1), transform 0.45s cubic-bezier(0.16, 1, 0.3, 1);
+    }
+    .product-card .view-front {
+      opacity: 1;
+      transform: scale(1);
+      transition: opacity 0.35s cubic-bezier(0.16, 1, 0.3, 1), transform 0.45s cubic-bezier(0.16, 1, 0.3, 1);
+    }
+
+    /* Desktop hover shows Back print automatically unless manually locked */
+    @media (hover: hover) {
+      .product-card:not(.force-front):hover .view-back {
+        opacity: 1;
+        transform: scale(1);
+      }
+      .product-card:not(.force-front):hover .view-front {
+        opacity: 0;
+        transform: scale(0.98);
+      }
+    }
+
+    /* Mobile / Global toggle state */
+    .product-card.show-back .view-back {
+      opacity: 1 !important;
+      transform: scale(1) !important;
+    }
+    .product-card.show-back .view-front {
+      opacity: 0 !important;
+      transform: scale(0.98) !important;
+    }
+
+    /* Split-Screen Diptych Photo Crop Utilities (3:4 Portrait Aspect) */
+    .photo-crop-stage {
+      background-repeat: no-repeat;
+      transition: background-position 0.45s cubic-bezier(0.16, 1, 0.3, 1),
+                  background-size 0.45s cubic-bezier(0.16, 1, 0.3, 1),
+                  transform 0.45s cubic-bezier(0.16, 1, 0.3, 1),
+                  filter 0.35s ease;
+    }
+
+    .studio-flat-filter {
+      filter: contrast(1.06) brightness(0.92);
+    }
+
+    /* Custom Scrollbar */
+    ::-webkit-scrollbar {
+      width: 6px;
+      height: 6px;
+    }
+    ::-webkit-scrollbar-track {
+      background: #0E0E10;
+    }
+    ::-webkit-scrollbar-thumb {
+      background: #2E2E34;
+    }
+    ::-webkit-scrollbar-thumb:hover {
+      background: #FF2A2A;
+    }
+
+    /* Glitch / Brutalist Button Effect */
+    .btn-brutal {
+      position: relative;
+      overflow: hidden;
+      transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+    }
+    .btn-brutal:hover {
+      transform: translate(-2px, -2px);
+      box-shadow: 4px 4px 0px #FF2A2A;
+    }
+    .btn-brutal:active {
+      transform: translate(0px, 0px);
+      box-shadow: 0px 0px 0px #FF2A2A;
+    }
+
+    /* Technical Crosshairs */
+    .crosshair-corner::before,
+    .crosshair-corner::after {
+      content: '+';
+      position: absolute;
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 10px;
+      color: rgba(242, 242, 242, 0.35);
+      line-height: 1;
+      pointer-events: none;
+    }
+    .crosshair-corner::before { top: 6px; left: 8px; }
+    .crosshair-corner::after { bottom: 6px; right: 8px; }
+  </style>
+</head>
+<body class="bg-void-bg text-void-white antialiased selection:bg-void-red selection:text-void-bg">
+
+  <!-- Global SVG Filters for Acid Wash & Grunge Screenprint Distortion -->
+  <svg class="hidden" width="0" height="0" aria-hidden="true">
+    <defs>
+      <filter id="acidWash" x="0%" y="0%" width="100%" height="100%">
+        <feTurbulence type="fractalNoise" baseFrequency="0.045" numOctaves="4" result="noise" />
+        <feColorMatrix type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 0.14 0" in="noise" result="softNoise" />
+        <feComposite operator="in" in="softNoise" in2="SourceGraphic" result="washed" />
+        <feBlend mode="overlay" in="washed" in2="SourceGraphic" />
+      </filter>
+      <filter id="distressPrint">
+        <feTurbulence type="fractalNoise" baseFrequency="0.18" numOctaves="2" result="grunge" />
+        <feDisplacementMap in="SourceGraphic" in2="grunge" scale="1.6" xChannelSelector="R" yChannelSelector="G" />
+      </filter>
+    </defs>
+  </svg>
+
+  <!-- Subtle Animated Film Grain -->
+  <div class="grain-overlay"></div>
+
+  <!-- Top System Telemetry Ticker -->
+  <div class="bg-void-surface b-border-b text-[11px] text-void-muted tracking-widest uppercase py-1.5 px-4 flex items-center justify-between">
+    <div class="flex items-center gap-2.5">
+      <span class="inline-block w-2 h-2 rounded-full bg-void-red animate-pulse"></span>
+      <span class="text-void-white font-medium">DROP 01 // ARCHIVE ONLINE</span>
+      <span class="hidden sm:inline text-void-muted">— LIMITED HEAVYWEIGHT PRODUCTION RUN</span>
+    </div>
+    <div class="flex items-center gap-4">
+      <span class="hidden md:inline">SHIPPING TERMS: CONFIRM BEFORE ORDER // EUR (€)</span>
+      <span class="text-void-lavender">BOT: @VOIDKIN_BOT</span>
+    </div>
+  </div>
+
+  <!-- Sticky Brutalist Header -->
+  <header class="sticky top-0 z-40 bg-void-bg/90 backdrop-blur-md b-border-b">
+    <div class="max-w-[1440px] mx-auto grid grid-cols-2 lg:grid-cols-12 items-center">
+      
+      <!-- Brand Custom Brutalist SVG Lettering Logo + Wing Emblem -->
+      <a href="#" class="col-span-1 lg:col-span-4 px-4 sm:px-6 py-3.5 b-border-r flex items-center justify-between group">
+        <div class="flex items-center gap-3.5">
+          <!-- Brutalist Display Logo -->
+          <svg class="h-7 sm:h-8 w-auto text-void-white group-hover:text-void-red transition-colors duration-200" viewBox="0 0 250 44" fill="currentColor" aria-label="VOIDKIN">
+            <path d="M2 4L14 40H24L36 4H26.5L19.5 28.5L12.5 4H2Z"/>
+            <path d="M0 2L6 9L2 12Z" fill="#FF2A2A"/>
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M40 8L46 3H64L70 8V36L64 41H46L40 36V8ZM50 10V34H53V10H50ZM57 10V34H60V10H57Z"/>
+            <path d="M76 4H92V10H88V34H92V40H76V34H80V10H76V4Z"/>
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M98 4H120L127 11V33L120 40H98V4ZM108 11V33H116L118 31V13L116 11H108Z"/>
+            <path d="M133 4H143V19L156 4H168L152 21.5L169 40H156.5L143 24.5V40H133V4Z"/>
+            <path d="M174 4H190V10H186V34H190V40H174V34H178V10H174V4Z"/>
+            <path d="M196 4H206L220 26V4H229V40H219.5L205 17.5V40H196V4Z"/>
+            <rect x="235" y="4" width="11" height="11" stroke="currentColor" stroke-width="2" fill="none"/>
+            <circle cx="240.5" cy="9.5" r="2.2" fill="#FF2A2A"/>
+          </svg>
+          <!-- Authentic Chest Wing Emblem seen on garments (oidkin + symmetrical V-wings) -->
+          <svg class="hidden xl:block h-7 w-auto text-void-lavender opacity-85 group-hover:text-void-white transition-colors" viewBox="0 0 120 42" fill="none" aria-hidden="true">
+            <path d="M8 24 L56 37 L56 8" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M112 24 L64 37 L64 8" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+            <text x="22" y="23" fill="currentColor" font-family="JetBrains Mono, monospace" font-weight="700" font-style="italic" font-size="13">oid</text>
+            <text x="68" y="23" fill="currentColor" font-family="JetBrains Mono, monospace" font-weight="700" font-style="italic" font-size="13">kin</text>
+          </svg>
+        </div>
+        <span class="hidden sm:inline-block text-[10px] text-void-muted border border-void-white/15 px-1.5 py-0.5 rounded-sm">DROP // 01</span>
+      </a>
+
+      <!-- Desktop Navigation -->
+      <nav class="hidden lg:flex lg:col-span-5 items-center justify-around text-xs tracking-widest uppercase h-full b-border-r">
+        <a href="#drop-01" class="px-4 py-5 hover:text-void-red transition-colors flex items-center gap-1.5">
+          <span class="text-void-muted">01/</span> DROP 01
+        </a>
+        <a href="#lookbook" class="px-4 py-5 hover:text-void-red transition-colors flex items-center gap-1.5">
+          <span class="text-void-muted">02/</span> LOOKBOOK
+        </a>
+        <a href="#about" class="px-4 py-5 hover:text-void-red transition-colors flex items-center gap-1.5">
+          <span class="text-void-muted">03/</span> ABOUT
+        </a>
+        <a href="https://t.me/voidkin_bot?start=consult" target="_blank" rel="noopener noreferrer" class="px-4 py-5 text-void-lavender hover:text-void-white transition-colors flex items-center gap-1.5">
+          <span class="w-1.5 h-1.5 bg-void-lavender rounded-full"></span> ORDER BOT ↗
+        </a>
+      </nav>
+
+      <!-- Header Right Actions & Mobile Menu Button -->
+      <div class="col-span-1 lg:col-span-3 flex items-center justify-end px-4 sm:px-6 py-3 gap-2.5">
+        <button type="button" onclick="triggerBulkPhotoUpload()"
+           title="Загрузить собственные фото с устройства"
+           class="hidden xl:inline-flex items-center gap-1.5 bg-void-surface hover:border-void-red text-void-muted hover:text-void-white b-box text-[10px] font-mono px-3 py-2.5 rounded-sm uppercase tracking-wider transition-colors">
+          <span>[ + ЗАГРУЗИТЬ ФОТО ]</span>
+        </button>
+
+        <a href="https://t.me/voidkin_bot?start=consult" target="_blank" rel="noopener noreferrer"
+           class="hidden sm:inline-flex items-center gap-2 bg-void-white text-void-bg font-bold text-xs px-4 py-2.5 rounded-sm uppercase tracking-wider btn-brutal">
+          <svg class="w-3.5 h-3.5" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M11.944 0A12 12 0 0 0 0 12a12 12 0 0 0 12 12 12 12 0 0 0 12-12A12 12 0 0 0 12 0a12 12 0 0 0-.056 0zm4.962 7.224c.1-.002.321.023.465.14a.506.506 0 0 1 .171.325c.016.093.036.306.02.472-.18 1.898-.962 6.502-1.36 8.627-.168.9-.499 1.201-.82 1.23-.696.065-1.225-.46-1.9-.902-1.056-.693-1.653-1.124-2.678-1.8-1.185-.78-.417-1.21.258-1.91.177-.184 3.247-2.977 3.307-3.23.007-.032.014-.15-.056-.212s-.174-.041-.249-.024c-.106.024-1.793 1.14-5.061 3.345-.48.33-.913.49-1.302.48-.428-.008-1.252-.241-1.865-.44-.752-.245-1.349-.374-1.297-.789.027-.216.325-.437.893-.663 3.498-1.524 5.83-2.529 6.998-3.014 3.332-1.386 4.025-1.627 4.476-1.635z"/>
+          </svg>
+          <span>TG BOT</span>
+        </a>
+
+        <button id="mobileMenuBtn" aria-label="Меню" class="lg:hidden b-box px-3 py-2 rounded-sm text-xs uppercase tracking-widest text-void-white hover:border-void-red transition-colors">
+          [ МЕНЮ ]
+        </button>
+      </div>
+    </div>
+
+    <!-- Hidden File Input for Custom Photo Replacement -->
+    <input type="file" id="customPhotoInput" accept="image/*" multiple class="hidden" onchange="handleCustomPhotoFiles(event)" />
+
+    <!-- Mobile Navigation Drawer -->
+    <div id="mobileMenu" class="hidden lg:hidden bg-void-surface b-border-t px-6 py-5 space-y-4">
+      <div class="flex flex-col space-y-3 text-sm tracking-widest uppercase">
+        <a href="#drop-01" class="mobile-nav-link py-2 b-border-b flex justify-between"><span>01 // DROP 01 (КАТАЛОГ)</span><span>→</span></a>
+        <a href="#lookbook" class="mobile-nav-link py-2 b-border-b flex justify-between"><span>02 // LOOKBOOK (ЛУКБУК)</span><span>→</span></a>
+        <a href="#about" class="mobile-nav-link py-2 b-border-b flex justify-between"><span>03 // ABOUT (МАНИФЕСТ)</span><span>→</span></a>
+        <a href="https://t.me/voidkin_bot?start=consult" target="_blank" rel="noopener noreferrer" class="py-2 text-void-red font-bold flex justify-between">
+          <span>04 // ЗАПУСТИТЬ TELEGRAM-БОТА</span><span>↗</span>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- ========================================== -->
+  <!-- 1. HERO SECTION (REAL CONCRETE LOOKBOOK)   -->
+  <!-- ========================================== -->
+  <section class="relative max-w-[1440px] mx-auto b-border-b concrete-bg overflow-hidden">
+    <div class="grid grid-cols-1 lg:grid-cols-12 min-h-[calc(100vh-92px)]">
+
+      <!-- Left Column: Brutalist Typography, Slogans & CTA -->
+      <div class="lg:col-span-7 p-6 sm:p-10 lg:p-14 flex flex-col justify-between b-border-r relative crosshair-corner">
+        
+        <!-- Top Technical Metadata -->
+        <div class="flex flex-wrap items-center justify-between gap-4 b-border-b pb-5">
+          <div class="flex items-center gap-3 text-xs text-void-muted">
+            <span class="px-2 py-0.5 bg-void-burgundy/80 text-void-white border border-void-red/40 rounded-sm">DROP 01 // ARCHIVE</span>
+            <span>RAW CONCRETE LOOKBOOK</span>
+          </div>
+          <div class="text-[11px] text-void-muted font-mono">
+            REF: VK-DRP01 // 240–380 GSM
+          </div>
+        </div>
+
+        <!-- Center Slogans & Display Headline -->
+        <div class="my-8 lg:my-auto py-4">
+          <div class="inline-flex items-center gap-2 text-xs uppercase tracking-[0.25em] text-void-red mb-4">
+            <span>/// UNDERGROUND STREETWEAR &amp; POST-IRONY</span>
+          </div>
+
+          <h1 class="font-display font-black uppercase text-4xl sm:text-6xl xl:text-7xl leading-[0.95] tracking-tight text-void-white mb-6">
+            VIOLENCE IS<br/>
+            <span class="text-transparent bg-clip-text bg-gradient-to-r from-void-white via-void-lavender to-void-red">ON SALE.</span>
+          </h1>
+
+          <!-- Slogan Teaser Interactive Pills (Click to preview in Hero) -->
+          <div class="flex flex-wrap items-center gap-2.5 mb-7">
+            <button type="button" onclick="setHeroLook(0)" class="text-xs font-mono uppercase px-3 py-1.5 bg-void-surface hover:border-void-red b-box rounded-sm text-void-lavender transition-colors">
+              «BOXY HOODIE VIOLENCE»
+            </button>
+            <button type="button" onclick="setHeroLook(1)" class="text-xs font-mono uppercase px-3 py-1.5 bg-void-surface hover:border-void-red b-box rounded-sm text-void-white transition-colors">
+              «VIOLENCE IS ON SALE»
+            </button>
+            <button type="button" onclick="setHeroLook(2)" class="text-xs font-mono uppercase px-3 py-1.5 bg-void-surface hover:border-void-red b-box rounded-sm text-void-muted hover:text-void-white transition-colors">
+              «ECHOES / CHERUBS»
+            </button>
+            <button type="button" onclick="setHeroLook(3)" class="text-xs font-mono uppercase px-3 py-1.5 bg-void-surface hover:border-void-red b-box rounded-sm text-void-muted hover:text-void-white transition-colors">
+              «KNOW YOUR RATS»
+            </button>
+          </div>
+
+          <p class="text-sm sm:text-base text-void-muted max-w-xl leading-relaxed mb-8">
+            Дебютный дроп <strong class="text-void-white font-normal">VOIDKIN</strong>. Коллекция из пяти вещей: оверсайз-футболки, укороченное худи, контрастные принты и строгий силуэт. Переход к оформлению через Telegram-бота с передачей кода выбранной вещи и размера в ссылке запуска.
+          </p>
+
+          <!-- Primary CTA & Secondary Action -->
+          <div class="flex flex-col sm:flex-row items-stretch sm:items-center gap-4">
+            <a href="#drop-01"
+               class="inline-flex items-center justify-center gap-4 bg-void-white text-void-bg font-display font-extrabold text-xs sm:text-sm uppercase tracking-wider px-8 py-4 rounded-sm btn-brutal">
+              <span>ПЕРЕЙТИ К ДРОПУ</span>
+              <span class="text-void-red font-mono text-base">↓</span>
+            </a>
+            <button type="button" onclick="openHeroActiveProductModal()"
+               class="inline-flex items-center justify-center gap-3 bg-void-surface/90 hover:bg-void-white/10 text-void-white b-box text-xs uppercase tracking-widest px-6 py-4 rounded-sm transition-colors">
+              <span>ОТКРЫТЬ КАРТОЧКУ ОБРАЗА</span>
+              <span class="text-void-red">→</span>
+            </button>
+          </div>
+        </div>
+
+        <!-- Bottom Spec Strip -->
+        <div class="grid grid-cols-3 gap-4 pt-6 b-border-t text-xs">
+          <div>
+            <div class="text-void-muted text-[10px] uppercase">Плотность хлопка</div>
+            <div class="text-void-white font-bold mt-0.5">240 — 380 Г/М²</div>
+          </div>
+          <div>
+            <div class="text-void-muted text-[10px] uppercase">Крой и посадка</div>
+            <div class="text-void-white font-bold mt-0.5">BOXY / OVERSIZE</div>
+          </div>
+          <div>
+            <div class="text-void-muted text-[10px] uppercase">Оформление</div>
+            <div class="text-void-red font-bold mt-0.5">DIRECT TG DEEP-LINK</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Right Column: Real Concrete Lookbook Frame with Interactive Switcher & Front/Back Toggle -->
+      <div class="lg:col-span-5 relative flex flex-col justify-between bg-[#0B0B0D] min-h-[540px] lg:min-h-full overflow-hidden">
+        
+        <!-- Top Overlay Controls inside Hero Photo Frame -->
+        <div class="p-4 bg-void-surface/90 b-border-b flex items-center justify-between gap-2 z-10">
+          <div class="flex items-center gap-1.5 flex-wrap">
+            <button type="button" onclick="setHeroLook(0)" id="hero-tab-0" class="hero-look-tab px-2.5 py-1 text-[10px] font-mono uppercase rounded-sm bg-void-white text-void-bg font-bold transition-all">
+              КАДР 01
+            </button>
+            <button type="button" onclick="setHeroLook(1)" id="hero-tab-1" class="hero-look-tab px-2.5 py-1 text-[10px] font-mono uppercase rounded-sm b-box text-void-muted hover:text-void-white transition-all">
+              КАДР 02
+            </button>
+            <button type="button" onclick="setHeroLook(2)" id="hero-tab-2" class="hero-look-tab px-2.5 py-1 text-[10px] font-mono uppercase rounded-sm b-box text-void-muted hover:text-void-white transition-all">
+              КАДР 03
+            </button>
+            <button type="button" onclick="setHeroLook(3)" id="hero-tab-3" class="hero-look-tab px-2.5 py-1 text-[10px] font-mono uppercase rounded-sm b-box text-void-muted hover:text-void-white transition-all">
+              КАДР 04
+            </button>
+          </div>
+
+          <!-- Hero Front / Back View Toggle -->
+          <div class="inline-flex items-center bg-void-bg b-box rounded-sm p-0.5">
+            <button type="button" onclick="setHeroSide('front')" id="hero-side-front" class="px-2.5 py-1 text-[10px] font-mono uppercase rounded-sm bg-void-red text-void-white font-bold transition-all">
+              FRONT
+            </button>
+            <button type="button" onclick="setHeroSide('back')" id="hero-side-back" class="px-2.5 py-1 text-[10px] font-mono uppercase rounded-sm text-void-muted hover:text-void-white transition-all">
+              BACK
+            </button>
+          </div>
+        </div>
+
+        <!-- Main Real Photo Stage (Guaranteed Embedded High-Res Visual) -->
+        <div class="relative flex-1 min-h-[480px] w-full overflow-hidden group cursor-pointer bg-[#141416] flex items-center justify-center" onclick="openHeroActiveProductModal()">
+          <img id="heroPhotoImg"
+               src=""
+               alt="VOIDKIN: изделие из текущего дропа на модели" decoding="async" fetchpriority="high"
+               class="w-full h-full min-h-[480px] object-cover object-center transition-transform duration-500 group-hover:scale-[1.02] select-none" />
+
+          <!-- Subtle Vignette & Brutalist Telemetry Overlay -->
+          <div class="absolute inset-0 bg-gradient-to-t from-black/85 via-transparent to-black/20 pointer-events-none"></div>
+
+          <!-- Quick Flip Button on Photo -->
+          <button type="button"
+                  onclick="event.stopPropagation(); toggleHeroSide()"
+                  class="absolute top-4 right-4 z-10 bg-void-bg/90 hover:bg-void-white hover:text-void-bg text-void-white b-box px-3 py-1.5 rounded-sm text-[10px] font-mono uppercase tracking-wider transition-colors">
+            [ ПОВЕРНУТЬ МОДЕЛЬ ↻ ]
+          </button>
+
+          <!-- Interactive Hotspot Badge on Hero Model -->
+          <div class="absolute bottom-5 left-5 right-5 bg-void-bg/95 backdrop-blur-md b-box p-4 rounded-sm flex items-center justify-between gap-4 hover:border-void-red transition-all">
+            <div class="flex items-center gap-3">
+              <span class="w-2.5 h-2.5 rounded-full bg-void-red animate-ping shrink-0"></span>
+              <div>
+                <div id="heroLookMeta" class="text-[10px] text-void-lavender uppercase tracking-wider">
+                  КАДР 01 // BOXY CROPPED HOODIE (HEATHER LAVENDER)
+                </div>
+                <div id="heroLookTitle" class="text-xs sm:text-sm font-display font-bold text-void-white mt-0.5">
+                  BOXY/CROPPED HOODIE «VIOLENCE» — 85 €
+                </div>
+              </div>
+            </div>
+            <span class="text-xs font-mono uppercase text-void-red font-bold shrink-0">[ ЗАКАЗАТЬ → ]</span>
+          </div>
+        </div>
+
+        <!-- Bottom Bar of Hero Image -->
+        <div class="px-5 py-3 bg-void-surface b-border-t flex items-center justify-between text-[11px] text-void-muted">
+          <span>RAW CONCRETE ARCHIVE // DROP 01</span>
+          <button type="button" onclick="toggleHeroSide()" class="text-void-white hover:text-void-red uppercase font-mono">
+            [ НАЖМИТЕ ДЛЯ СМЕНЫ РАКУРСА FRONT/BACK ]
+          </button>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Brutalist Ticker / Marquee Banner -->
+  <div class="bg-void-surface b-border-b py-3 overflow-hidden select-none">
+    <div class="marquee-track flex items-center gap-8 text-xs font-mono uppercase tracking-[0.2em]">
+      <span class="text-void-white font-bold">VIOLENCE IS ON SALE</span>
+      <span class="text-void-red">///</span>
+      <span class="text-void-muted">KNOW YOUR RATS</span>
+      <span class="text-void-red">///</span>
+      <span class="text-void-lavender">HEAVYWEIGHT COTTON 250–420 GSM</span>
+      <span class="text-void-red">///</span>
+      <span class="text-void-white">DIRECT TELEGRAM BOT CHECKOUT</span>
+      <span class="text-void-red">///</span>
+      <span class="text-void-muted">ACID WASH &amp; SILKSCREEN PRINT</span>
+      <span class="text-void-red">///</span>
+      <span class="text-void-white font-bold">VIOLENCE IS ON SALE</span>
+      <span class="text-void-red">///</span>
+      <span class="text-void-muted">KNOW YOUR RATS</span>
+      <span class="text-void-red">///</span>
+      <span class="text-void-lavender">HEAVYWEIGHT COTTON 250–420 GSM</span>
+      <span class="text-void-red">///</span>
+      <span class="text-void-white">DIRECT TELEGRAM BOT CHECKOUT</span>
+      <span class="text-void-red">///</span>
+      <span class="text-void-muted">ACID WASH &amp; SILKSCREEN PRINT</span>
+      <span class="text-void-red">///</span>
+    </div>
+  </div>
+
+  <!-- ========================================== -->
+  <!-- 2. CATALOG SECTION (CURRENT DROP 01)       -->
+  <!-- ========================================== -->
+  <section id="drop-01" class="max-w-[1440px] mx-auto b-border-b">
+    
+    <!-- Section Header & Interactive Controls Bar -->
+    <div class="p-6 sm:p-10 b-border-b flex flex-col lg:flex-row lg:items-end justify-between gap-6">
+      <div>
+        <div class="flex items-center gap-2 text-xs text-void-red uppercase tracking-widest mb-2">
+          <span>// ВИТРИНА КОЛЛЕКЦИИ</span>
+          <span>•</span>
+          <span>5 АЙТЕМОВ В КАТАЛОГЕ</span>
+        </div>
+        <h2 class="font-display font-black text-3xl sm:text-5xl uppercase tracking-tight text-void-white">
+          CURRENT DROP 01
+        </h2>
+      </div>
+
+      <!-- Filter Tabs & Global Front/Back View Switcher (Essential for Mobile!) -->
+      <div class="flex flex-wrap items-center gap-3">
+        <!-- Category Filter -->
+        <div class="inline-flex bg-void-surface b-box rounded-sm p-1" role="group" aria-label="Фильтр категорий">
+          <button onclick="setCategoryFilter('all')" id="filter-all"
+                  class="filter-btn px-3.5 py-2 text-xs font-mono uppercase rounded-sm bg-void-white text-void-bg font-bold transition-all">
+            ALL [05]
+          </button>
+          <button onclick="setCategoryFilter('tee')" id="filter-tee"
+                  class="filter-btn px-3.5 py-2 text-xs font-mono uppercase rounded-sm text-void-muted hover:text-void-white transition-all">
+            TEES [04]
+          </button>
+          <button onclick="setCategoryFilter('hoodie')" id="filter-hoodie"
+                  class="filter-btn px-3.5 py-2 text-xs font-mono uppercase rounded-sm text-void-muted hover:text-void-white transition-all">
+            HOODIES [01]
+          </button>
+        </div>
+
+        <!-- Mobile & Desktop Global FRONT / BACK Print Switcher -->
+        <div class="inline-flex items-center bg-void-surface b-box rounded-sm p-1">
+          <span class="text-[10px] text-void-muted uppercase px-2.5 hidden sm:inline">РАКУРС:</span>
+          <button onclick="setGlobalView('front')" id="global-view-front"
+                  class="px-3 py-2 text-xs font-mono uppercase rounded-sm bg-void-red text-void-white font-bold transition-all">
+            FRONT
+          </button>
+          <button onclick="setGlobalView('back')" id="global-view-back"
+                  class="px-3 py-2 text-xs font-mono uppercase rounded-sm text-void-muted hover:text-void-white transition-all">
+            BACK / PRINT
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Helper Banner explaining Hover / Tap interaction -->
+    <div class="px-6 sm:px-10 py-2.5 bg-void-surface/50 b-border-b flex flex-wrap items-center justify-between text-[11px] text-void-muted gap-2">
+      <span>💡 <span class="text-void-white">DESKTOP:</span> НАВЕДИТЕ КУРСОР НА ТОВАР ДЛЯ ПРОСМОТРА ПРИНТА СО СПИНЫ. <span class="text-void-white">MOBILE:</span> ИСПОЛЬЗУЙТЕ ПЕРЕКЛЮЧАТЕЛЬ FRONT/BACK.</span>
+      <span class="text-void-lavender">КЛИК НА КАРТОЧКУ → ЗАМЕРЫ И ЗАКАЗ В TG</span>
+    </div>
+
+    <!-- Product Grid (2-3 Columns Desktop, 1-2 Mobile) -->
+    <div id="catalogGrid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+      <!-- Dynamically populated via JS from structured Drop 01 Archive Data -->
+    </div>
+  </section>
+
+  <!-- ========================================== -->
+  <!-- 3. LOOKBOOK SECTION (EDITORIAL SHOTS)      -->
+  <!-- ========================================== -->
+  <section id="lookbook" class="max-w-[1440px] mx-auto b-border-b">
+    <div class="p-6 sm:p-10 b-border-b flex flex-col sm:flex-row sm:items-end justify-between gap-4">
+      <div>
+        <div class="text-xs text-void-lavender uppercase tracking-widest mb-2">// ARCHIVE VISUALS // CONCRETE &amp; STUDIO SERIES</div>
+        <h2 class="font-display font-black text-3xl sm:text-5xl uppercase tracking-tight">LOOKBOOK &amp; DETAILS</h2>
+      </div>
+      <p class="text-xs text-void-muted max-w-md">
+        Живые кадры коллекции на сыром бетоне и в студии. Наведите курсор (или нажмите «СПИНА / ПРИНТ»), чтобы увидеть графику со спины, либо откройте карточку для просмотра лекал и заказа.
+      </p>
+    </div>
+
+    <div id="lookbookGrid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
+      <!-- Dynamically populated from user supplied original photos -->
+    </div>
+  </section>
+
+  <!-- ========================================== -->
+  <!-- 4. MANIFESTO & PRODUCTION SPECS (ABOUT)    -->
+  <!-- ========================================== -->
+  <section id="about" class="max-w-[1440px] mx-auto b-border-b">
+    <div class="grid grid-cols-1 lg:grid-cols-12">
+      
+      <!-- Left Manifesto Column -->
+      <div class="lg:col-span-6 p-6 sm:p-12 b-border-r b-border-b lg:border-b-0 flex flex-col justify-between relative crosshair-corner">
+        <div>
+          <div class="inline-block text-xs font-mono uppercase px-2.5 py-1 bg-void-red/15 text-void-red border border-void-red/30 rounded-sm mb-6">
+            03 // BRAND MANIFESTO &amp; DNA
+          </div>
+          <h2 class="font-display font-black text-3xl sm:text-5xl uppercase leading-tight mb-6">
+            МЫ НЕ ПРОДАЕМ УЮТ.<br/>
+            <span class="text-void-lavender">МЫ ДОКУМЕНТИРУЕМ ШУМ.</span>
+          </h2>
+          <p class="text-sm sm:text-base text-void-muted leading-relaxed mb-6">
+            <strong class="text-void-white">VOIDKIN</strong> вырос на стыке индустриального брутализма, эстетики 90-х и пост-ироничного взгляда на культуру потребления. Наши вещи — это тяжелая броня на каждый день из высокоплотного хлопка, обработанного энзимной и кислотной стиркой.
+          </p>
+          <p class="text-sm sm:text-base text-void-muted leading-relaxed">
+            Никаких случайных бланков: каждое лекало разрабатывается с нуля с акцентом на широкую пройму, плотную горловину в 3 см, которая не растягивается, и долговечную трафаретную шелкографию.
+          </p>
+        </div>
+
+        <div class="mt-10 pt-6 b-border-t flex flex-wrap items-center justify-between gap-4 text-xs text-void-muted">
+          <span>DESIGNED IN UNDERGROUND ARCHIVE</span>
+          <span class="text-void-white font-bold">NO RESTOCKS ON DROP 01</span>
+        </div>
+      </div>
+
+      <!-- Right Technical Specifications Grid -->
+      <div class="lg:col-span-6 grid grid-cols-1 sm:grid-cols-2">
+        
+        <div class="p-6 sm:p-8 b-border-r b-border-b flex flex-col justify-between">
+          <div class="text-xs text-void-red font-bold uppercase tracking-widest mb-4">[01 // ACID WASH]</div>
+          <div>
+            <h3 class="font-display font-bold text-lg text-void-white uppercase mb-2">Выстиранная фактура</h3>
+            <p class="text-xs text-void-muted leading-relaxed">
+              Каждая футболка и худи проходит индивидуальную стирку (Enzyme &amp; Acid Wash), создающую уникальный винтажный градиент на швах и мягкий тактильный гриф.
+            </p>
+          </div>
+        </div>
+
+        <div class="p-6 sm:p-8 b-border-b flex flex-col justify-between">
+          <div class="text-xs text-void-lavender font-bold uppercase tracking-widest mb-4">[02 // HEAVYWEIGHT 250-420G]</div>
+          <div>
+            <h3 class="font-display font-bold text-lg text-void-white uppercase mb-2">Сверхплотный хлопок</h3>
+            <p class="text-xs text-void-muted leading-relaxed">
+              Кулирная гладь компакт-пенье 250–280 г/м² для футболок и трехниточный футер диагональ 420 г/м² без начеса для худи — вещи держат архитектурную boxy-форму.
+            </p>
+          </div>
+        </div>
+
+        <div class="p-6 sm:p-8 b-border-r b-border-b sm:border-b-0 flex flex-col justify-between">
+          <div class="text-xs text-void-white font-bold uppercase tracking-widest mb-4">[03 // SILKSCREEN PRINT]</div>
+          <div>
+            <h3 class="font-display font-bold text-lg text-void-white uppercase mb-2">Ручная шелкография</h3>
+            <p class="text-xs text-void-muted leading-relaxed">
+              Принты наносятся пластизолевыми и водными вытравными красками в несколько проходов. Графика устойчива к десяткам стирок и не трескается.
+            </p>
+          </div>
+        </div>
+
+        <div class="p-6 sm:p-8 flex flex-col justify-between bg-void-surface/60">
+          <div class="text-xs text-void-red font-bold uppercase tracking-widest mb-4">[04 // DIRECT BOT ORDER]</div>
+          <div>
+            <h3 class="font-display font-bold text-lg text-void-white uppercase mb-2">Deep-Link Оформление</h3>
+            <p class="text-xs text-void-muted leading-relaxed mb-4">
+              Выбирайте айтем и размер на сайте — кнопка откроет Telegram с кодом выбранной позиции. Наличие и резервирование подтверждаются отдельно.
+            </p>
+            <a href="https://t.me/voidkin_bot" target="_blank" rel="noopener noreferrer" class="text-xs text-void-white underline hover:text-void-red">
+              Проверить работу @voidkin_bot ↗
+            </a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================== -->
+  <!-- FOOTER                                     -->
+  <!-- ========================================== -->
+  <footer class="max-w-[1440px] mx-auto px-6 sm:px-10 py-12 text-xs text-void-muted">
+    <div class="grid grid-cols-1 md:grid-cols-12 gap-8 pb-10 b-border-b">
+      <div class="md:col-span-5 space-y-3">
+        <div class="font-display font-black text-2xl text-void-white tracking-wider">VOIDKIN®</div>
+        <p class="text-xs text-void-muted max-w-sm leading-relaxed">
+          Underground streetwear label. Minimalist brutalism, heavy fabrics, direct community distribution via Telegram.
+        </p>
+        <div class="pt-2 text-[11px] text-void-lavender">
+          ORDER BOT: OPEN IN TELEGRAM // RESPONSE TIME NOT GUARANTEED
+        </div>
+      </div>
+
+      <div class="md:col-span-3 space-y-2">
+        <div class="text-void-white font-bold uppercase tracking-wider mb-3">НАВИГАЦИЯ</div>
+        <ul class="space-y-2">
+          <li><a href="#drop-01" class="hover:text-void-white transition-colors">DROP 01 (КАТАЛОГ)</a></li>
+          <li><a href="#lookbook" class="hover:text-void-white transition-colors">LOOKBOOK 01</a></li>
+          <li><a href="#about" class="hover:text-void-white transition-colors">MANIFESTO / ТКАНИ</a></li>
+        </ul>
+      </div>
+
+      <div class="md:col-span-4 space-y-2">
+        <div class="text-void-white font-bold uppercase tracking-wider mb-3">ПРЯМОЙ ЗАКАЗ И ПОДДЕРЖКА</div>
+        <p class="text-xs leading-relaxed mb-3">
+          Для заказа конкретной позиции выберите размер в карточке товара или напишите напрямую в наш бот:
+        </p>
+        <a href="https://t.me/voidkin_bot" target="_blank" rel="noopener noreferrer"
+           class="inline-flex items-center gap-2 px-4 py-2.5 bg-void-surface b-box rounded-sm text-void-white hover:border-void-red transition-colors">
+          <span class="w-2 h-2 rounded-full bg-void-red"></span>
+          <span>https://t.me/voidkin_bot</span>
+          <span>↗</span>
+        </a>
+      </div>
+    </div>
+
+    <div class="pt-6 flex flex-col sm:flex-row items-center justify-between gap-4 text-[11px]">
+      <span>© 2026 VOIDKIN ARCHIVE. ALL RIGHTS RESERVED.</span>
+      <span>VIOLENCE IS ON SALE // KNOW YOUR RATS</span>
+    </div>
+  </footer>
+
+  <!-- ========================================== -->
+  <!-- FLOATING TELEGRAM CONSULTATION BUTTON      -->
+  <!-- ========================================== -->
+  <a href="https://t.me/voidkin_bot?start=consult"
+     target="_blank"
+     rel="noopener noreferrer"
+     aria-label="Написать в Telegram-бот"
+     class="fixed bottom-5 right-5 z-40 bg-void-bg/95 backdrop-blur-md text-void-white b-box hover:border-void-red px-4 py-3 rounded-sm shadow-2xl flex items-center gap-2.5 text-xs font-mono tracking-wider uppercase btn-brutal">
+    <span class="w-2 h-2 rounded-full bg-void-red animate-pulse"></span>
+    <span>[ НАПИСАТЬ В TELEGRAM-БОТ ]</span>
+  </a>
+
+  <!-- ========================================== -->
+  <!-- PRODUCT MODAL (CAROUSEL, SIZES, DEEP LINK) -->
+  <!-- ========================================== -->
+  <div id="productModal" class="fixed inset-0 z-50 hidden items-center justify-center p-2 sm:p-4 md:p-6 bg-black/85 backdrop-blur-md overflow-y-auto" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+    
+    <!-- Modal Container -->
+    <div class="relative w-full max-w-5xl bg-void-bg b-box rounded-sm shadow-2xl overflow-hidden my-auto max-h-[95vh] flex flex-col">
+      
+      <!-- Modal Top Technical Bar -->
+      <div class="px-4 sm:px-6 py-3 bg-void-surface b-border-b flex items-center justify-between text-xs">
+        <div class="flex items-center gap-3">
+          <span id="modalItemCode" class="text-void-red font-bold uppercase">ID: TEE_VIOLENCE</span>
+          <span class="text-void-muted">|</span>
+          <span id="modalItemGsm" class="text-void-muted">260 Г/М²</span>
+        </div>
+        <div class="flex items-center gap-2">
+          <button type="button" onclick="triggerModalSlidePhotoUpload()" class="text-void-muted hover:text-void-white font-mono text-[11px] uppercase px-2.5 py-1 b-box rounded-sm transition-colors">
+            [ ЗАМЕНИТЬ ФОТО ⤒ ]
+          </button>
+          <button type="button" onclick="openLightboxCurrent()" class="text-void-lavender hover:text-void-white font-mono text-[11px] uppercase px-2.5 py-1 b-box rounded-sm transition-colors">
+            [ ПОЛНОЕ ФОТО ⤢ ]
+          </button>
+          <button type="button" onclick="closeProductModal()" class="text-void-white hover:text-void-red font-mono text-xs uppercase px-2.5 py-1 b-box rounded-sm transition-colors">
+            [ ЗАКРЫТЬ ✕ ]
+          </button>
+        </div>
+      </div>
+
+      <!-- Modal Content Grid -->
+      <div class="grid grid-cols-1 lg:grid-cols-12 overflow-y-auto">
+        
+        <!-- Left Column: Visual Carousel (01. FRONT / 02. BACK / 03. MACRO / 04. CAD) -->
+        <div class="lg:col-span-6 b-border-r b-border-b lg:border-b-0 flex flex-col justify-between concrete-bg p-4 sm:p-6">
+          
+          <!-- Slide Stage -->
+          <div class="relative aspect-[3/3.6] w-full bg-[#101013] b-box rounded-sm flex items-center justify-center overflow-hidden group">
+            <div id="modalCarouselStage" class="w-full h-full flex items-center justify-center transition-all duration-300">
+              <!-- Populated dynamically with supplied photos and original CAD sheets -->
+            </div>
+
+            <!-- Prev / Next Carousel Arrows -->
+            <button type="button" onclick="stepModalSlide(-1)" aria-label="Предыдущий кадр"
+                    class="absolute left-3 top-1/2 -translate-y-1/2 bg-void-bg/90 hover:bg-void-white hover:text-void-bg text-void-white b-box w-9 h-9 rounded-sm flex items-center justify-center transition-colors z-10">
+              ←
+            </button>
+            <button type="button" onclick="stepModalSlide(1)" aria-label="Следующий кадр"
+                    class="absolute right-3 top-1/2 -translate-y-1/2 bg-void-bg/90 hover:bg-void-white hover:text-void-bg text-void-white b-box w-9 h-9 rounded-sm flex items-center justify-center transition-colors z-10">
+              →
+            </button>
+
+            <!-- Slide Badge -->
+            <div id="modalSlideCaption" class="absolute top-3 left-3 bg-void-bg/90 b-box px-2.5 py-1 text-[10px] uppercase tracking-wider text-void-white z-10">
+              01 // НА МОДЕЛИ (FRONT)
+            </div>
+
+            <!-- Open Uncropped Full Image Button -->
+            <button type="button" onclick="openLightboxCurrent()"
+                    class="absolute bottom-3 right-3 bg-void-bg/90 hover:bg-void-white hover:text-void-bg text-void-white b-box px-2.5 py-1 text-[10px] font-mono uppercase tracking-wider transition-colors z-10">
+              [ ОРИГИНАЛ КАДРА ⤢ ]
+            </button>
+          </div>
+
+          <!-- Carousel View Selector Tabs -->
+          <div class="grid grid-cols-2 sm:grid-cols-4 gap-2 mt-4">
+            <button type="button" onclick="setModalSlide(0)" id="slide-tab-0" class="slide-tab py-2.5 px-2 text-[10px] font-mono uppercase b-box rounded-sm bg-void-white text-void-bg font-bold">
+              01. НА МОДЕЛИ (FRONT)
+            </button>
+            <button type="button" onclick="setModalSlide(1)" id="slide-tab-1" class="slide-tab py-2.5 px-2 text-[10px] font-mono uppercase b-box rounded-sm text-void-muted hover:text-void-white">
+              02. ПРИНТ НА СПИНЕ
+            </button>
+            <button type="button" onclick="setModalSlide(2)" id="slide-tab-2" class="slide-tab py-2.5 px-2 text-[10px] font-mono uppercase b-box rounded-sm text-void-muted hover:text-void-white">
+              03. МАКРО / ДЕТАЛИ
+            </button>
+            <button type="button" onclick="setModalSlide(3)" id="slide-tab-3" class="slide-tab py-2.5 px-2 text-[10px] font-mono uppercase b-box rounded-sm text-void-muted hover:text-void-white">
+              04. МАКЕТ КРОЯ (CAD)
+            </button>
+          </div>
+
+          <!-- Fabric & Construction Specs Box -->
+          <div class="mt-4 p-3.5 bg-void-surface b-box rounded-sm space-y-1.5 text-xs">
+            <div class="flex justify-between gap-2">
+              <span class="text-void-muted">СОСТАВ И ПЛОТНОСТЬ:</span>
+              <span id="modalFabricSpec" class="text-void-white font-medium text-right">100% Хлопок, 260 г/м²</span>
+            </div>
+            <div class="flex justify-between gap-2">
+              <span class="text-void-muted">ОБРАБОТКА И ДЕТАЛИ:</span>
+              <span id="modalFitSpec" class="text-void-lavender text-right">Acid Wash / Boxy Oversize</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right Column: Details, Size Selector, Measurements Table & Telegram Deep-Link -->
+        <div class="lg:col-span-6 p-5 sm:p-7 flex flex-col justify-between space-y-6">
+          
+          <div>
+            <!-- Color Badge & Price -->
+            <div class="flex items-center justify-between gap-2 mb-2">
+              <div class="flex items-center gap-2">
+                <span id="modalColorSwatch" class="w-3.5 h-3.5 rounded-sm border border-white/30 inline-block"></span>
+                <span id="modalColorName" class="text-xs text-void-muted uppercase">WASHED BURGUNDY</span>
+              </div>
+              <span id="modalPrice" class="font-display font-black text-xl sm:text-2xl text-void-white">45 €</span>
+            </div>
+
+            <!-- Product Title -->
+            <h3 id="modalTitle" class="font-display font-black text-xl sm:text-2xl uppercase text-void-white leading-snug mb-3">
+              OVERSIZE TEE «VIOLENCE IS ON SALE»
+            </h3>
+
+            <p id="modalDescription" class="text-xs text-void-muted leading-relaxed">
+              Описание айтема и графики.
+            </p>
+          </div>
+
+          <!-- Size Selector (S, M, L, XL) -->
+          <div>
+            <div class="flex items-center justify-between text-xs mb-2.5">
+              <span class="text-void-white font-bold uppercase">1. ВЫБЕРИТЕ РАЗМЕР (OVERSIZE ЛЕКАЛА):</span>
+              <span id="selectedSizeBadge" class="text-void-red font-bold">ВЫБРАН: L</span>
+            </div>
+            <div class="grid grid-cols-4 gap-2.5" id="sizeButtonsContainer">
+              <button onclick="selectProductSize('S')" data-size="S" class="size-btn py-3 text-xs font-mono font-bold uppercase b-box rounded-sm transition-all">S</button>
+              <button onclick="selectProductSize('M')" data-size="M" class="size-btn py-3 text-xs font-mono font-bold uppercase b-box rounded-sm transition-all">M</button>
+              <button onclick="selectProductSize('L')" data-size="L" class="size-btn py-3 text-xs font-mono font-bold uppercase b-box rounded-sm transition-all">L</button>
+              <button onclick="selectProductSize('XL')" data-size="XL" class="size-btn py-3 text-xs font-mono font-bold uppercase b-box rounded-sm transition-all">XL</button>
+            </div>
+          </div>
+
+          <!-- Interactive Oversize Measurements Table -->
+          <div>
+            <div class="flex items-center justify-between text-[11px] text-void-muted mb-2">
+              <span>ТАБЛИЦА ЗАМЕРОВ ИЗДЕЛИЯ (СМ) — ПОДСВЕТКА АКТИВНОГО РАЗМЕРА:</span>
+              <span>±1.5 СМ</span>
+            </div>
+            <div class="overflow-x-auto b-box rounded-sm">
+              <table class="w-full text-left text-xs font-mono">
+                <thead class="bg-void-surface text-void-muted text-[10px] uppercase b-border-b">
+                  <tr>
+                    <th class="py-2 px-3">РАЗМЕР</th>
+                    <th class="py-2 px-3">ШИРИНА ГРУДИ (A)</th>
+                    <th class="py-2 px-3">ДЛИНА (B)</th>
+                    <th class="py-2 px-3">РУКАВ / ПЛЕЧО (C)</th>
+                  </tr>
+                </thead>
+                <tbody id="modalSizeTableBody" class="divide-y divide-white/10">
+                  <!-- Populated dynamically and highlights selected size -->
+                </tbody>
+              </table>
+            </div>
+          </div>
+
+          <!-- Telegram Deep-Link Generator Preview & Order CTAs -->
+          <div class="space-y-3 pt-2 b-border-t">
+            <div class="bg-void-surface b-box p-3 rounded-sm">
+              <div class="flex items-center justify-between text-[10px] text-void-muted uppercase mb-1">
+                <span>TELEGRAM DEEP-LINK ПАРАМЕТР ЗАПУСКА БОТА:</span>
+                <span class="text-void-lavender">АВТО-РАСПОЗНАВАНИЕ</span>
+              </div>
+              <div class="flex items-center justify-between gap-2">
+                <code id="modalDeepLinkPreview" class="text-[11px] text-void-white font-mono break-all">
+                  https://t.me/voidkin_bot?start=tee_violence_L
+                </code>
+                <span id="modalStartPayloadTag" class="shrink-0 text-[10px] px-2 py-0.5 bg-void-red/20 text-void-red border border-void-red/40 rounded-sm">
+                  ?start=tee_violence_L
+                </span>
+              </div>
+            </div>
+
+            <!-- Main Order Button (Direct Deep Link to Telegram Bot) -->
+            <a id="modalTelegramOrderBtn"
+               href="https://t.me/voidkin_bot?start=tee_violence_L"
+               target="_blank"
+               rel="noopener noreferrer"
+               class="w-full py-4 px-5 bg-void-red hover:bg-void-white text-void-white hover:text-void-bg font-display font-black text-xs sm:text-sm uppercase tracking-wider rounded-sm flex items-center justify-center gap-3 transition-colors btn-brutal">
+              <svg class="w-4 h-4 shrink-0" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M11.944 0A12 12 0 0 0 0 12a12 12 0 0 0 12 12 12 12 0 0 0 12-12A12 12 0 0 0 12 0a12 12 0 0 0-.056 0zm4.962 7.224c.1-.002.321.023.465.14a.506.506 0 0 1 .171.325c.016.093.036.306.02.472-.18 1.898-.962 6.502-1.36 8.627-.168.9-.499 1.201-.82 1.23-.696.065-1.225-.46-1.9-.902-1.056-.693-1.653-1.124-2.678-1.8-1.185-.78-.417-1.21.258-1.91.177-.184 3.247-2.977 3.307-3.23.007-.032.014-.15-.056-.212s-.174-.041-.249-.024c-.106.024-1.793 1.14-5.061 3.345-.48.33-.913.49-1.302.48-.428-.008-1.252-.241-1.865-.44-.752-.245-1.349-.374-1.297-.789.027-.216.325-.437.893-.663 3.498-1.524 5.83-2.529 6.998-3.014 3.332-1.386 4.025-1.627 4.476-1.635z"/>
+              </svg>
+              <span>ЗАКАЗАТЬ ЧЕРЕЗ TELEGRAM</span>
+              <span id="modalBtnSizeSuffix" class="font-mono text-xs opacity-90">[РАЗМЕР L]</span>
+            </a>
+
+            <!-- Desktop Fallback: Copy Order Code / Deep Link Button -->
+            <div class="flex flex-col sm:flex-row items-stretch sm:items-center justify-between gap-2">
+              <button onclick="copyOrderCode()"
+                      class="w-full py-2.5 px-4 bg-void-surface hover:bg-void-white/10 text-void-muted hover:text-void-white b-box rounded-sm text-[11px] font-mono uppercase tracking-wider transition-colors flex items-center justify-center gap-2">
+                <span>[ СКОПИРОВАТЬ КОД И ССЫЛКУ ЗАКАЗА ]</span>
+              </button>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Custom Brutalist Notification Toast (No native alert!) -->
+  <div id="toastNotification" class="fixed bottom-20 right-5 z-50 hidden bg-void-surface text-void-white border border-void-red px-4 py-3 rounded-sm shadow-2xl max-w-sm text-xs font-mono">
+    <div class="flex items-center gap-2.5">
+      <span class="w-2 h-2 rounded-full bg-void-red"></span>
+      <span id="toastMessage">Код заказа скопирован в буфер обмена</span>
+    </div>
+  </div>
+
+  <!-- Fullscreen Lightbox for Inspecting Original Uncropped Photos & CAD Sheets -->
+  <div id="photoLightbox" class="fixed inset-0 z-[60] hidden items-center justify-center bg-black/95 p-4 md:p-8" onclick="closeLightbox()">
+    <div class="relative max-w-6xl w-full max-h-[92vh] flex flex-col items-center" onclick="event.stopPropagation()">
+      <div class="w-full flex items-center justify-between pb-3 mb-3 b-border-b text-xs font-mono">
+        <span id="lightboxCaption" class="text-void-white uppercase">VOIDKIN ARCHIVE // ORIGINAL HIGH-RES SHEET</span>
+        <button type="button" onclick="closeLightbox()" class="px-3 py-1 bg-void-surface text-void-white hover:text-void-red b-box rounded-sm uppercase">
+          [ ЗАКРЫТЬ ОРИГИНАЛ ✕ ]
+        </button>
+      </div>
+      <div class="w-full flex-1 overflow-auto flex items-center justify-center bg-[#0E0E10] b-box p-2 rounded-sm">
+        <img id="lightboxImg" src="" alt="VOIDKIN Full View" class="max-h-[80vh] w-auto object-contain select-none" />
+      </div>
+    </div>
+  </div>
+
+  <!-- ========================================== -->
+  <!-- JAVASCRIPT: REAL USER-SUPPLIED IMAGES & BOT -->
+  <!-- ========================================== -->
+  <!-- JAVASCRIPT: PHOTOGRAPHIC LOOKBOOK & BOT -->
+  <!-- ========================================== -->
+  <script>
+    const BOT_USERNAME = 'voidkin_bot';
+
+    // Product imagery is stored locally in /assets/products/.
+    // Original source photographs and flat sketches supplied by VOIDKIN.
+
+    // Complete Archive Data for DROP 01 with Euro (€) Pricing & Embedded High-Res Visuals
+    const PRODUCTS = [
+      {
+        id: 'tee_violence',
+        category: 'tee',
+        number: '01',
+        name: 'Oversize Tee «Violence is on Sale»',
+        shortTitle: 'VIOLENCE IS ON SALE',
+        colorName: 'Washed Burgundy',
+        colorHex: '#4A2329',
+        secondaryHex: '#FF2A2A',
+        gsm: '260 г/м²',
+        price: '45 €',
+        fabric: '100% плотный хлопок компакт-пенье, 260 г/м²',
+        fit: 'Oversize Drop-Shoulder / Эффект выстиранности (Washed Burgundy)',
+        description: 'Оверсайз-футболка в глубоком бордово-винном цвете Washed Burgundy. На груди слева — фирменная вышивка-эмблема Voidkin с крыльями. На спине — крупный контрастный принт «VIOLENCE IS ON SALE» с фигурой с ЭЛТ-телевизором вместо головы, толкающей тележку из супермаркета, доверху набитую автоматами.',
+        images: {
+          frontUrl: '/assets/products/violence-model-front.webp',
+          backUrl: '/assets/products/violence-model-back.webp',
+          macroUrl: '/assets/products/violence-detail.webp',
+          cadUrl: '/assets/products/violence-cad.webp'
+        },
+        measurements: {
+          S:  { chest: '58 см', length: '71 см', sleeve: '23 см' },
+          M:  { chest: '61 см', length: '74 см', sleeve: '24 см' },
+          L:  { chest: '64 см', length: '77 см', sleeve: '25 см' },
+          XL: { chest: '67 см', length: '79 см', sleeve: '26 см' }
+        }
+      },
+      {
+        id: 'tee_rats',
+        category: 'tee',
+        number: '02',
+        name: 'Oversize Tee «Know Your Rats»',
+        shortTitle: 'KNOW YOUR RATS',
+        colorName: 'Pure White',
+        colorHex: '#F2F2F2',
+        secondaryHex: '#0E0E10',
+        gsm: '240 г/м²',
+        price: '42 €',
+        fabric: '100% плотный хлопок, 240 г/м²',
+        fit: 'Boxy Oversize / Усиленный воротник рибана',
+        description: 'Белоснежная оверсайз-футболка с пост-ироничной винтажной графикой. Спереди — минималистичный логотип Voidkin на груди. На спине — крупный принт «KNOW YOUR RATS» с крысой, подкрадывающейся к куску сыра, и текстом «THEY’RE CLOSER THAN YOU THINK / RAT CONTROL SERVICE / TEL. 555-0137».',
+        images: {
+          frontUrl: '/assets/products/rats-model-front.webp',
+          backUrl: '/assets/products/rats-model-back.webp',
+          macroUrl: '/assets/products/rats-detail.webp',
+          cadUrl: '/assets/products/rats-cad.webp'
+        },
+        measurements: {
+          S:  { chest: '57 см', length: '70 см', sleeve: '22.5 см' },
+          M:  { chest: '60 см', length: '73 см', sleeve: '23.5 см' },
+          L:  { chest: '63 см', length: '76 см', sleeve: '24.5 см' },
+          XL: { chest: '66 см', length: '78 см', sleeve: '25.5 см' }
+        }
+      },
+      {
+        id: 'tee_echoes',
+        category: 'tee',
+        number: '03',
+        name: 'Heavyweight Tee «Echoes / Cherubs»',
+        shortTitle: 'ECHOES / CHERUBS',
+        colorName: 'Washed Lavender',
+        colorHex: '#8B80A8',
+        secondaryHex: '#F2F2F2',
+        gsm: '280 г/м²',
+        price: '48 €',
+        fabric: '100% тяжелый хлопок Heavyweight, 280 г/м²',
+        fit: 'Heavy Boxy Fit / Выстиранный лавандовый оттенок (Washed Lavender)',
+        description: 'Тяжелая футболка повышенной плотности 280 г/м² в выстиранном лавандовом оттенке с фактурными швами. Спереди — фирменный логотип Voidkin на груди. На спине — художественная гравюрная композиция: мальчик, закрывающий уши руками от навязчивых голосов-херувимов, и каллиграфический леттеринг Voidkin.',
+        images: {
+          frontUrl: '/assets/products/voices-model-front.webp',
+          backUrl: '/assets/products/voices-model-back.webp',
+          macroUrl: '/assets/products/voices-detail.webp',
+          cadUrl: '/assets/products/voices-cad.webp'
+        },
+        measurements: {
+          S:  { chest: '59 см', length: '72 см', sleeve: '24 см' },
+          M:  { chest: '62 см', length: '75 см', sleeve: '25 см' },
+          L:  { chest: '65 см', length: '78 см', sleeve: '26 см' },
+          XL: { chest: '68 см', length: '80 см', sleeve: '27 см' }
+        }
+      },
+      {
+        id: 'tee_sadface',
+        category: 'tee',
+        number: '04',
+        name: 'Heavyweight Tee «Sad Face»',
+        shortTitle: 'SAD FACE // BONE',
+        colorName: 'Washed Black / Graphite',
+        colorHex: '#252528',
+        secondaryHex: '#FF2A2A',
+        gsm: '300 г/м²',
+        price: '46 €',
+        fabric: '100% сверхплотный хлопок Heavyweight, 300 г/м²',
+        fit: 'Boxy Fit / Винтажная V-образная вставка на горловине / Вываренный графит',
+        description: 'Плотная графитовая футболка с винтажной треугольной отстрочкой у ворота и выраженной вываркой по швам. Спереди — крупный сигнально-красный принт (#FF2A2A) с глазами-восклицательными знаками «!!» и грустной скобкой. На спине между лопаток — детализированный костяной леттеринг VOIDKIN.',
+        images: {
+          frontUrl: '/assets/products/sadface-flat-front.webp',
+          backUrl: '/assets/products/sadface-flat-back.webp',
+          macroUrl: '/assets/products/sadface-detail.webp',
+          cadUrl: '/assets/products/sadface-cad.webp'
+        },
+        measurements: {
+          S:  { chest: '59 см', length: '72 см', sleeve: '24 см' },
+          M:  { chest: '62 см', length: '75 см', sleeve: '25 см' },
+          L:  { chest: '65 см', length: '78 см', sleeve: '26 см' },
+          XL: { chest: '68 см', length: '80 см', sleeve: '27 см' }
+        }
+      },
+      {
+        id: 'hoodie_violence',
+        category: 'hoodie',
+        number: '05',
+        name: 'Boxy/Cropped Hoodie «Violence»',
+        shortTitle: 'BOXY HOODIE «VIOLENCE»',
+        colorName: 'Acid Heather Lavender',
+        colorHex: '#8B80A8',
+        secondaryHex: '#FF2A2A',
+        gsm: '380 г/м²',
+        price: '85 €',
+        fabric: '100% хлопок, тяжелый футер 380 г/м² с кислотной стиркой',
+        fit: 'Boxy / Cropped посадка / Массивный капюшон без люверсов и шнурков',
+        description: 'Флагманское худи коллекции из плотного футера с характерной мраморной кислотной вываркой (Acid Wash Heather Lavender). Укороченный boxy-силуэт с широкими плотными манжетами и поясом, глубокий капюшон с черным внутренним подкладом без металлических люверсов. На груди — фиолетовая вышивка Voidkin, на спине — вытравной принт фигуры с тележкой оружия.',
+        images: {
+          frontUrl: '/assets/products/hoodie-model-front.webp',
+          backUrl: '/assets/products/hoodie-model-back.webp',
+          macroUrl: '/assets/products/hoodie-detail.webp',
+          cadUrl: '/assets/products/hoodie-cad.webp'
+        },
+        measurements: {
+          S:  { chest: '63 см', length: '64 см', sleeve: '58 см' },
+          M:  { chest: '66 см', length: '67 см', sleeve: '60 см' },
+          L:  { chest: '69 см', length: '70 см', sleeve: '62 см' },
+          XL: { chest: '72 см', length: '72 см', sleeve: '64 см' }
+        }
+      }
+    ];
+
+    // Hero Lookbook Frames Configuration (EUR Prices & Direct Image URLs)
+    const HERO_LOOKS = [
+      {
+        productId: 'hoodie_violence',
+        meta: 'КАДР 01 // ACID HEATHER LAVENDER (380 GSM)',
+        title: 'BOXY/CROPPED HOODIE «VIOLENCE» — 85 €'
+      },
+      {
+        productId: 'tee_violence',
+        meta: 'КАДР 02 // WASHED BURGUNDY (260 GSM)',
+        title: 'OVERSIZE TEE «VIOLENCE IS ON SALE» — 45 €'
+      },
+      {
+        productId: 'tee_echoes',
+        meta: 'КАДР 03 // WASHED LAVENDER (280 GSM)',
+        title: 'HEAVYWEIGHT TEE «ECHOES / CHERUBS» — 48 €'
+      },
+      {
+        productId: 'tee_rats',
+        meta: 'КАДР 04 // PURE WHITE (240 GSM)',
+        title: 'OVERSIZE TEE «KNOW YOUR RATS» — 42 €'
+      }
+    ];
+
+    // State Management
+    let activeCategory = 'all';
+    let globalViewMode = 'front'; // 'front' | 'back'
+    let currentHeroIndex = 0;
+    let currentHeroSide = 'front'; // 'front' | 'back'
+    let currentModalProduct = PRODUCTS[0];
+    let currentModalSize = 'L';
+    let currentModalSlide = 0; // 0: Front, 1: Back, 2: Macro/Details, 3: CAD Flat
+    let uploadTargetMode = 'bulk'; // 'bulk' | 'modalSlide'
+
+    // ===========================================================
+    // HERO LOOKBOOK CONTROLLER
+    // ===========================================================
+    function setHeroLook(index) {
+      currentHeroIndex = index;
+      updateHeroLookUI();
+    }
+
+    function setHeroSide(side) {
+      currentHeroSide = side;
+      updateHeroLookUI();
+    }
+
+    function toggleHeroSide() {
+      currentHeroSide = currentHeroSide === 'front' ? 'back' : 'front';
+      updateHeroLookUI();
+    }
+
+    function updateHeroLookUI() {
+      const look = HERO_LOOKS[currentHeroIndex];
+      const heroImg = document.getElementById('heroPhotoImg');
+      if (!heroImg || !look) return;
+
+      const product = PRODUCTS.find(p => p.id === look.productId) || PRODUCTS[0];
+      heroImg.src = currentHeroSide === 'front' ? product.images.frontUrl : product.images.backUrl;
+
+      document.getElementById('heroLookMeta').textContent = `${look.meta} // [${currentHeroSide.toUpperCase()}]`;
+      document.getElementById('heroLookTitle').textContent = `${product.shortTitle} — ${product.price}`;
+
+      // Update Hero Frame Tabs
+      for (let i = 0; i < HERO_LOOKS.length; i++) {
+        const tab = document.getElementById(`hero-tab-${i}`);
+        if (!tab) continue;
+        if (i === currentHeroIndex) {
+          tab.className = 'hero-look-tab px-2.5 py-1 text-[10px] font-mono uppercase rounded-sm bg-void-white text-void-bg font-bold transition-all';
+        } else {
+          tab.className = 'hero-look-tab px-2.5 py-1 text-[10px] font-mono uppercase rounded-sm b-box text-void-muted hover:text-void-white transition-all';
+        }
+      }
+
+      // Update Front/Back Side Buttons
+      const frontBtn = document.getElementById('hero-side-front');
+      const backBtn = document.getElementById('hero-side-back');
+      if (currentHeroSide === 'front') {
+        frontBtn.className = 'px-2.5 py-1 text-[10px] font-mono uppercase rounded-sm bg-void-red text-void-white font-bold transition-all';
+        backBtn.className = 'px-2.5 py-1 text-[10px] font-mono uppercase rounded-sm text-void-muted hover:text-void-white transition-all';
+      } else {
+        backBtn.className = 'px-2.5 py-1 text-[10px] font-mono uppercase rounded-sm bg-void-red text-void-white font-bold transition-all';
+        frontBtn.className = 'px-2.5 py-1 text-[10px] font-mono uppercase rounded-sm text-void-muted hover:text-void-white transition-all';
+      }
+    }
+
+    function openHeroActiveProductModal() {
+      const look = HERO_LOOKS[currentHeroIndex];
+      if (look) openProductModal(look.productId);
+    }
+
+    // ===========================================================
+    // RENDER CATALOG GRID WITH GUARANTEED <IMG> TAGS
+    // ===========================================================
+    function renderCatalog() {
+      const grid = document.getElementById('catalogGrid');
+      const filtered = activeCategory === 'all'
+        ? PRODUCTS
+        : PRODUCTS.filter(item => item.category === activeCategory);
+
+      grid.innerHTML = filtered.map((product) => {
+        const showBackClass = globalViewMode === 'back' ? 'show-back' : '';
+
+        return `
+          <article class="product-card ${showBackClass} b-border-r b-border-b bg-void-bg hover:bg-void-surface/50 transition-colors flex flex-col justify-between group cursor-pointer relative"
+                   onclick="openProductModal('${product.id}')">
+            
+            <!-- Card Top Metadata Bar -->
+            <div class="p-4 sm:px-6 b-border-b flex items-center justify-between text-[11px]">
+              <div class="flex items-center gap-2">
+                <span class="text-void-muted font-mono">/${product.number}</span>
+                <span class="px-2 py-0.5 bg-void-surface b-box rounded-sm text-void-white uppercase">${product.gsm}</span>
+              </div>
+              <div class="flex items-center gap-2">
+                <span class="w-2.5 h-2.5 rounded-sm border border-white/30" style="background-color: ${product.colorHex}"></span>
+                <span class="text-void-muted uppercase">${product.colorName}</span>
+              </div>
+            </div>
+
+            <!-- Interactive 3:4 Portrait Photo Stage (Front + Hover Back View) -->
+            <div class="relative aspect-[3/3.7] w-full bg-[#161619] overflow-hidden">
+              <!-- Front Photo View -->
+              <img src="${product.images.frontUrl}"
+                   alt="${product.name} — вид спереди" loading="lazy" decoding="async"
+                   class="view-front absolute inset-0 w-full h-full object-cover object-center select-none" />
+
+              <!-- Back Photo View (Revealed on Hover or Toggle) -->
+              <img src="${product.images.backUrl}"
+                   alt="${product.name} — вид сзади и принт" loading="lazy" decoding="async"
+                   class="view-back absolute inset-0 w-full h-full object-cover object-center select-none" />
+
+              <!-- Subtle Bottom Gradient for Badge Readability -->
+              <div class="absolute inset-x-0 bottom-0 h-20 bg-gradient-to-t from-black/80 to-transparent pointer-events-none"></div>
+
+              <!-- Per-Card Quick FRONT/BACK Flip Button for Mobile & Touch -->
+              <button type="button"
+                      onclick="event.stopPropagation(); toggleSingleCardView(this)"
+                      class="absolute top-3 right-3 z-10 bg-void-bg/90 hover:bg-void-white hover:text-void-bg text-void-white b-box px-2.5 py-1 rounded-sm text-[10px] font-mono uppercase tracking-wider transition-colors">
+                [ СПИНА / ПРИНТ ↻ ]
+              </button>
+
+              <!-- Bottom Left Item ID & CAD Available Tag -->
+              <div class="absolute bottom-3 left-3 right-3 flex items-center justify-between text-[10px] font-mono uppercase pointer-events-none">
+                <span class="px-2 py-0.5 bg-void-bg/90 b-box rounded-sm text-void-white">ID: ${product.id}</span>
+                <span class="px-2 py-0.5 bg-void-bg/90 b-box rounded-sm text-void-lavender">4 РАКУРСА + CAD</span>
+              </div>
+            </div>
+
+            <!-- Card Footer Details & Quick Order Action -->
+            <div class="p-5 sm:p-6 b-border-t flex flex-col justify-between gap-4 bg-void-bg">
+              <div>
+                <div class="flex items-start justify-between gap-3 mb-1.5">
+                  <h3 class="font-display font-bold text-base sm:text-lg text-void-white group-hover:text-void-red transition-colors uppercase leading-snug">
+                    ${product.name}
+                  </h3>
+                  <span class="font-display font-black text-base sm:text-lg text-void-white shrink-0">${product.price}</span>
+                </div>
+                <p class="text-xs text-void-muted line-clamp-2">${product.fit}</p>
+              </div>
+
+              <div class="pt-3 b-border-t flex items-center justify-between gap-2">
+                <div class="flex items-center gap-1 text-[11px] text-void-muted font-mono">
+                  <span>РАЗМЕРЫ:</span>
+                  <span class="text-void-white font-bold">S / M / L / XL</span>
+                </div>
+                <span class="inline-flex items-center gap-1.5 text-xs font-mono uppercase font-bold text-void-white group-hover:text-void-red transition-colors">
+                  <span>ЗАМЕРЫ И ЗАКАЗ</span>
+                  <span>→</span>
+                </span>
+              </div>
+            </div>
+
+          </article>
+        `;
+      }).join('');
+    }
+
+    // Toggle individual card Front/Back view on tap
+    function toggleSingleCardView(btnEl) {
+      const card = btnEl.closest('.product-card');
+      if (!card) return;
+      card.classList.toggle('show-back');
+    }
+
+    // Category filter handler
+    function setCategoryFilter(category) {
+      activeCategory = category;
+      document.querySelectorAll('.filter-btn').forEach(btn => {
+        btn.className = 'filter-btn px-3.5 py-2 text-xs font-mono uppercase rounded-sm text-void-muted hover:text-void-white transition-all';
+      });
+      const activeBtn = document.getElementById(`filter-${category}`);
+      if (activeBtn) {
+        activeBtn.className = 'filter-btn px-3.5 py-2 text-xs font-mono uppercase rounded-sm bg-void-white text-void-bg font-bold transition-all';
+      }
+      renderCatalog();
+    }
+
+    // Global Front/Back switcher for mobile users
+    function setGlobalView(view) {
+      globalViewMode = view;
+      const frontBtn = document.getElementById('global-view-front');
+      const backBtn = document.getElementById('global-view-back');
+
+      if (view === 'front') {
+        frontBtn.className = 'px-3 py-2 text-xs font-mono uppercase rounded-sm bg-void-red text-void-white font-bold transition-all';
+        backBtn.className = 'px-3 py-2 text-xs font-mono uppercase rounded-sm text-void-muted hover:text-void-white transition-all';
+      } else {
+        backBtn.className = 'px-3 py-2 text-xs font-mono uppercase rounded-sm bg-void-red text-void-white font-bold transition-all';
+        frontBtn.className = 'px-3 py-2 text-xs font-mono uppercase rounded-sm text-void-muted hover:text-void-white transition-all';
+      }
+      renderCatalog();
+    }
+
+    // ===========================================================
+    // RENDER LOOKBOOK EDITORIAL CARDS
+    // ===========================================================
+    function renderLookbookPreviews() {
+      const lookbookContainer = document.getElementById('lookbookGrid');
+      if (!lookbookContainer) return;
+
+      const editorialItems = [
+        {
+          lookNum: 'LOOK // 01',
+          product: PRODUCTS.find(p => p.id === 'hoodie_violence'),
+          caption: 'Boxy/Cropped Hoodie «Violence» на фоне сырого бетона. Капюшон без люверсов, кислотная выварка Acid Heather Lavender.'
+        },
+        {
+          lookNum: 'LOOK // 02',
+          product: PRODUCTS.find(p => p.id === 'tee_violence'),
+          caption: 'Oversize Tee «Violence is on Sale» в цвете Washed Burgundy. Контрастная шелкография с тележкой оружия на спине.'
+        },
+        {
+          lookNum: 'LOOK // 03',
+          product: PRODUCTS.find(p => p.id === 'tee_echoes'),
+          caption: 'Heavyweight Tee «Echoes / Cherubs» (Washed Lavender, 280 г/м²). Гравюрная графика со спины и вышивка на груди.'
+        },
+        {
+          lookNum: 'LOOK // 04',
+          product: PRODUCTS.find(p => p.id === 'tee_rats'),
+          caption: 'Oversize Tee «Know Your Rats» (Pure White). Винтажная иллюстрация Rat Control Service TEL. 555-0137.'
+        }
+      ];
+
+      lookbookContainer.innerHTML = editorialItems.map((entry) => {
+        const p = entry.product;
+        return `
+          <div onclick="openProductModal('${p.id}')"
+               class="product-card b-border-r b-border-b p-5 sm:p-6 flex flex-col justify-between concrete-bg cursor-pointer group hover:bg-void-surface transition-colors">
+            <div class="flex items-center justify-between text-[11px] text-void-muted mb-3">
+              <span>${entry.lookNum}</span>
+              <span class="text-void-red font-bold">${p.gsm}</span>
+            </div>
+
+            <div class="aspect-[3/3.8] w-full bg-[#161619] b-box rounded-sm overflow-hidden relative">
+              <!-- Default Back Print Showcase in Lookbook, Hover shows Front -->
+              <img src="${p.images.backUrl}" alt="${p.name}, вид сзади" loading="lazy" decoding="async" class="view-front absolute inset-0 w-full h-full object-cover object-center select-none" />
+              <img src="${p.images.frontUrl}" alt="${p.name}, вид спереди" loading="lazy" decoding="async" class="view-back absolute inset-0 w-full h-full object-cover object-center select-none" />
+
+              <button type="button"
+                      onclick="event.stopPropagation(); toggleSingleCardView(this)"
+                      class="absolute top-2.5 right-2.5 z-10 bg-void-bg/90 text-void-white b-box px-2 py-0.5 text-[10px] font-mono uppercase">
+                [ FRONT / BACK ↻ ]
+              </button>
+
+              <div class="absolute bottom-2.5 left-2.5 right-2.5 bg-void-bg/95 b-box px-3 py-2 flex items-center justify-between text-[11px]">
+                <span class="text-void-white font-bold truncate pr-2">${p.shortTitle}</span>
+                <span class="text-void-red shrink-0">${p.price} →</span>
+              </div>
+            </div>
+
+            <div class="mt-4 text-xs text-void-muted leading-relaxed">
+              ${entry.caption}
+            </div>
+          </div>
+        `;
+      }).join('');
+    }
+
+    // ===========================================================
+    // PRODUCT MODAL & TELEGRAM DEEP-LINK ENGINE
+    // ===========================================================
+    function openProductModal(productId) {
+      const normalizedId = productId === 'tee_cherubs' ? 'tee_echoes' : productId;
+      const found = PRODUCTS.find(p => p.id === normalizedId);
+      if (!found) return;
+
+      currentModalProduct = found;
+      currentModalSlide = 0;
+
+      // Populate text info
+      document.getElementById('modalItemCode').textContent = `ID: ${found.id.toUpperCase()}`;
+      document.getElementById('modalItemGsm').textContent = found.gsm;
+      document.getElementById('modalColorSwatch').style.backgroundColor = found.colorHex;
+      document.getElementById('modalColorName').textContent = found.colorName;
+      document.getElementById('modalPrice').textContent = found.price;
+      document.getElementById('modalTitle').textContent = found.name;
+      document.getElementById('modalDescription').textContent = found.description;
+      document.getElementById('modalFabricSpec').textContent = found.fabric;
+      document.getElementById('modalFitSpec').textContent = found.fit;
+
+      // Render slide, size buttons, measurements table, and deep link
+      updateModalSlideView();
+      selectProductSize(currentModalSize);
+
+      const modal = document.getElementById('productModal');
+      modal.classList.remove('hidden');
+      modal.classList.add('flex');
+      document.body.style.overflow = 'hidden';
+    }
+
+    function closeProductModal() {
+      const modal = document.getElementById('productModal');
+      modal.classList.add('hidden');
+      modal.classList.remove('flex');
+      document.body.style.overflow = '';
+    }
+
+    function setModalSlide(index) {
+      currentModalSlide = (index + 4) % 4;
+      updateModalSlideView();
+    }
+
+    function stepModalSlide(delta) {
+      setModalSlide(currentModalSlide + delta);
+    }
+
+    function getModalSlideUrl(product, slideIdx) {
+      if (slideIdx === 0) return product.images.frontUrl;
+      if (slideIdx === 1) return product.images.backUrl;
+      if (slideIdx === 2) return product.images.macroUrl;
+      return product.images.cadUrl;
+    }
+
+    function updateModalSlideView() {
+      const stage = document.getElementById('modalCarouselStage');
+      const caption = document.getElementById('modalSlideCaption');
+      const p = currentModalProduct;
+
+      const captions = [
+        '01 // НА МОДЕЛИ (FRONT VIEW)',
+        '02 // ПРИНТ НА СПИНЕ (BACK VIEW)',
+        '03 // МАКРО-ДЕТАЛИ ПРИНТА И ШВОВ',
+        '04 // ТЕХНИЧЕСКИЙ МАКЕТ КРОЯ (CAD)'
+      ];
+      caption.textContent = captions[currentModalSlide];
+
+      // Update active slide button styling
+      for (let i = 0; i < 4; i++) {
+        const tab = document.getElementById(`slide-tab-${i}`);
+        if (i === currentModalSlide) {
+          tab.className = 'slide-tab py-2.5 px-2 text-[10px] font-mono uppercase b-box rounded-sm bg-void-white text-void-bg font-bold';
+        } else {
+          tab.className = 'slide-tab py-2.5 px-2 text-[10px] font-mono uppercase b-box rounded-sm text-void-muted hover:text-void-white';
+        }
+      }
+
+      const activeUrl = getModalSlideUrl(p, currentModalSlide);
+      const fitMode = currentModalSlide === 3 ? 'object-contain p-2 bg-[#141416]' : 'object-cover';
+      stage.innerHTML = `<img src="${activeUrl}" alt="${p.name} — ${captions[currentModalSlide]}" loading="lazy" decoding="async" class="w-full h-full ${fitMode} select-none" />`;
+    }
+
+    // Open Fullscreen Lightbox showing the active high-res slide
+    function openLightboxCurrent() {
+      const p = currentModalProduct;
+      const lightbox = document.getElementById('photoLightbox');
+      const img = document.getElementById('lightboxImg');
+      const cap = document.getElementById('lightboxCaption');
+
+      img.src = getModalSlideUrl(p, currentModalSlide);
+      cap.textContent = `${p.name} (${p.price}) // ПОЛНЫЙ ПРОСМОТР`;
+
+      lightbox.classList.remove('hidden');
+      lightbox.classList.add('flex');
+    }
+
+    function closeLightbox() {
+      const lightbox = document.getElementById('photoLightbox');
+      lightbox.classList.add('hidden');
+      lightbox.classList.remove('flex');
+    }
+
+    // ===========================================================
+    // CUSTOM USER PHOTO UPLOADER (FILEREADER DRAG & DROP / PICKER)
+    // ===========================================================
+    function triggerBulkPhotoUpload() {
+      uploadTargetMode = 'bulk';
+      document.getElementById('customPhotoInput').click();
+    }
+
+    function triggerModalSlidePhotoUpload() {
+      uploadTargetMode = 'modalSlide';
+      document.getElementById('customPhotoInput').click();
+    }
+
+    function handleCustomPhotoFiles(event) {
+      const files = Array.from(event.target.files || []);
+      if (!files.length) return;
+
+      if (uploadTargetMode === 'modalSlide') {
+        const reader = new FileReader();
+        reader.onload = (e) => {
+          const dataUrl = e.target.result;
+          if (currentModalSlide === 0) currentModalProduct.images.frontUrl = dataUrl;
+          else if (currentModalSlide === 1) currentModalProduct.images.backUrl = dataUrl;
+          else if (currentModalSlide === 2) currentModalProduct.images.macroUrl = dataUrl;
+          else currentModalProduct.images.cadUrl = dataUrl;
+
+          updateModalSlideView();
+          updateHeroLookUI();
+          renderCatalog();
+          renderLookbookPreviews();
+          showToast(`Фото обновлено для ${currentModalProduct.shortTitle}`);
+        };
+        reader.readAsDataURL(files[0]);
+      } else {
+        files.slice(0, PRODUCTS.length).forEach((file, idx) => {
+          const reader = new FileReader();
+          reader.onload = (e) => {
+            PRODUCTS[idx].images.frontUrl = e.target.result;
+            PRODUCTS[idx].images.backUrl = e.target.result;
+            updateHeroLookUI();
+            renderCatalog();
+            renderLookbookPreviews();
+          };
+          reader.readAsDataURL(file);
+        });
+        showToast(`Загружено пользовательских фото: ${files.length}`);
+      }
+      event.target.value = '';
+    }
+
+    // Select Size (S, M, L, XL), highlight row in oversize chart, and update Telegram Deep Link
+    function selectProductSize(size) {
+      currentModalSize = size;
+      document.getElementById('selectedSizeBadge').textContent = `ВЫБРАН: ${size}`;
+      document.getElementById('modalBtnSizeSuffix').textContent = `[РАЗМЕР ${size} • ${currentModalProduct.price}]`;
+
+      // Highlight selected size button
+      document.querySelectorAll('.size-btn').forEach(btn => {
+        if (btn.getAttribute('data-size') === size) {
+          btn.className = 'size-btn py-3 text-xs font-mono font-bold uppercase rounded-sm bg-void-white text-void-bg border border-void-white transition-all';
+        } else {
+          btn.className = 'size-btn py-3 text-xs font-mono font-bold uppercase b-box rounded-sm text-void-muted hover:text-void-white transition-all';
+        }
+      });
+
+      // Render measurements table with active row highlighted
+      const tbody = document.getElementById('modalSizeTableBody');
+      const sizes = ['S', 'M', 'L', 'XL'];
+      tbody.innerHTML = sizes.map(sz => {
+        const row = currentModalProduct.measurements[sz];
+        const isSelected = sz === size;
+        return `
+          <tr onclick="selectProductSize('${sz}')"
+              class="cursor-pointer transition-colors ${isSelected ? 'bg-void-red/20 text-void-white font-bold' : 'text-void-muted hover:bg-void-surface'}">
+            <td class="py-2 px-3 flex items-center gap-1.5">
+              ${isSelected ? '<span class="w-1.5 h-1.5 rounded-full bg-void-red"></span>' : ''}
+              <span>${sz}</span>
+            </td>
+            <td class="py-2 px-3">${row.chest}</td>
+            <td class="py-2 px-3">${row.length}</td>
+            <td class="py-2 px-3">${row.sleeve}</td>
+          </tr>
+        `;
+      }).join('');
+
+      // Generate exact Telegram Bot Deep Link: https://t.me/voidkin_bot?start=<ITEM_ID>_<SIZE>
+      const startParam = `${currentModalProduct.id}_${size}`;
+      const deepLinkUrl = `https://t.me/${BOT_USERNAME}?start=${startParam}`;
+
+      document.getElementById('modalDeepLinkPreview').textContent = deepLinkUrl;
+      document.getElementById('modalStartPayloadTag').textContent = `?start=${startParam}`;
+      document.getElementById('modalTelegramOrderBtn').setAttribute('href', deepLinkUrl);
+    }
+
+    // Copy Order Code & Deep Link using document.execCommand('copy')
+    function copyOrderCode() {
+      const startParam = `${currentModalProduct.id}_${currentModalSize}`;
+      const deepLinkUrl = `https://t.me/${BOT_USERNAME}?start=${startParam}`;
+      const textToCopy = `/start ${startParam} — ${currentModalProduct.name} (Размер ${currentModalSize}, ${currentModalProduct.price}) | ${deepLinkUrl}`;
+
+      const tempInput = document.createElement('textarea');
+      tempInput.value = textToCopy;
+      tempInput.style.position = 'fixed';
+      tempInput.style.opacity = '0';
+      document.body.appendChild(tempInput);
+      tempInput.select();
+
+      try {
+        document.execCommand('copy');
+        showToast(`Скопировано: ?start=${startParam} (${currentModalProduct.price})`);
+      } catch (err) {
+        showToast(`Код заказа: ${startParam}`);
+      } finally {
+        document.body.removeChild(tempInput);
+      }
+    }
+
+    function showToast(msg) {
+      const toast = document.getElementById('toastNotification');
+      document.getElementById('toastMessage').textContent = msg;
+      toast.classList.remove('hidden');
+      clearTimeout(window._toastTimer);
+      window._toastTimer = setTimeout(() => {
+        toast.classList.add('hidden');
+      }, 3600);
+    }
+
+    // Close Modal / Lightbox on Escape key
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape') {
+        const lightbox = document.getElementById('photoLightbox');
+        if (lightbox && !lightbox.classList.contains('hidden')) {
+          closeLightbox();
+        } else {
+          closeProductModal();
+        }
+      }
+    });
+
+    document.getElementById('productModal').addEventListener('click', (e) => {
+      if (e.target.id === 'productModal') closeProductModal();
+    });
+
+    // Mobile Menu Toggle
+    document.getElementById('mobileMenuBtn').addEventListener('click', () => {
+      const menu = document.getElementById('mobileMenu');
+      menu.classList.toggle('hidden');
+    });
+
+    document.querySelectorAll('.mobile-nav-link').forEach(link => {
+      link.addEventListener('click', () => {
+        document.getElementById('mobileMenu').classList.add('hidden');
+      });
+    });
+
+    // Initialize Catalog, Lookbook & Hero on Load
+    window.addEventListener('DOMContentLoaded', () => {
+      updateHeroLookUI();
+      renderCatalog();
+      renderLookbookPreviews();
+    });
+  </script>
+</body>
+</html>
