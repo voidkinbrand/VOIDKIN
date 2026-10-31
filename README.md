@@ -11,6 +11,13 @@ Static multipage shop with actual uploaded product photography. Original visual 
 - `styles.css`, `app.js` — lightweight responsive implementation
 - `assets/products/*.webp` — ONLY the user-supplied garment images, not AI illustrations
 
+## Storefront audit improvements
+- Combined category and **color filters** with reset.
+- Desktop FRONT/BACK respects manually selected view.
+- Keyboard controls for gallery thumbnails and clearer disabled-order state.
+- Case Files now pair the original artworks with user-supplied photographs.
+- Security response headers, product JSON caching rules and follow-up QA notes are in `vercel.json` and `AUDIT.md`.
+
 ## Update a product
 Edit `data/products.json`. Prices, sizes, image sources and other data change in the UI after the next Git commit / Vercel deployment. Size and stock are intentionally provisional until verified. This is a catalog and Telegram inquiry flow, not a payment checkout.
 

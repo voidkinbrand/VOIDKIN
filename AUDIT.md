@@ -37,3 +37,28 @@ Reviewed the supplied single-file source code, the user-supplied photographic as
 4. Replace provisional typographic mark/favicon with the brand's authentic vector asset when supplied.
 5. Check the host's commercial-use plan and actual website performance against live traffic (Lighthouse/Web Vitals). Local browser tests do not establish live conversion or uptime.
 6. The desktop screenshots and automated tests used locally reconstructed browser resources because direct browser navigation was restricted in this environment. Production deployment status is checked separately through Vercel.
+
+
+## Second audit / follow-up revision
+
+### Additional defects identified
+
+- A manual FRONT/BACK selection could be contradicted by desktop hover CSS. Hover now only previews the back when the card has not been manually flipped; once the user chooses the back it remains visible until toggled.
+- Shop lacked the originally requested color filter. An accessible color selector now derives its values from the same product JSON and combines with garment-type and photo-view filters; RESET clears incompatible selections.
+- Disabled size inquiry link remained in keyboard tab sequence before selecting a size. It is now removed from tab order until a size has been selected. Gallery thumbnails expose explicit labels and support left/right arrow keys.
+- Case Files consisted entirely of text. Each existing case now includes its corresponding genuine garment photograph or flat lay, arranged in an alternating editorial layout; no new graphics or manufactured facts are used.
+- Response headers lacked a Content Security Policy, Permissions Policy and catalog revalidation rule. Those are now configured in `vercel.json`.
+
+### Second audit regression suite
+
+- Test widths: **320, 390, 768, 1024, 1440 px**. No horizontal overflow in tested pages, no uncaught JavaScript errors.
+- Color filtering, garment filtering, conflicting-filter empty state, RESET, model/flat mode, manual front/back toggles, and mobile nav were tested.
+- All five product galleries, selected-size Telegram payloads, thumbnail arrow-key behavior and unknown product ID were tested.
+- Verified all 28 original WebP images can be decoded locally, and every referenced local HTML/image path exists.
+- Local browser screenshots were rendered with Chromium using a strict in-memory asset route because direct localhost browser navigation is restricted in this environment. This is **not** a live production-browser audit.
+
+### Remaining material dependencies
+
+- The bot still requires an actual Telegram end-to-end test. Telegram deep links alone do not create or reserve orders.
+- Seller identity, legal notices, stock, prices, real measurements and fulfillment policies require confirmed brand input. This build intentionally does not invent them.
+- Dedicated static HTML metadata for each product and real-user Core Web Vitals measurements are still future SEO/performance opportunities; tests here do not substantiate those outcomes.
