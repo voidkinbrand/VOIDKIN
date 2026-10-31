@@ -1,16 +1,26 @@
-# VOIDKIN DROP 01 — original user code + actual product imagery
+# VOIDKIN / Archive 01
 
-This edition preserves the user-provided single-page HTML storefront and replaces all dynamically generated garment visuals with the nine uploaded photos and technical sketches.
+Static multipage shop with actual uploaded product photography. Original visual direction retained, excess functionality removed. No runtime Tailwind, fabricated product visuals, fake stock/reservation status, simulated checkout, or photo uploader.
 
-- `index.html`: the original HTML/CSS/JS, product catalog, product modal, front/back toggle, size chart, and Telegram deep links.
-- `assets/products/`: cropped, compressed WebP images created from the user-supplied photographs and original two-sided flat sketches.
-- `assets/og-voidkin.jpg`: OpenGraph preview cropped from the supplied burgundy tee photograph.
+## Contents
+- `index.html` — collection / editorial landing
+- `shop.html` — filterable product register (type, model/flat)
+- `product.html?id=tee_violence` — product galleries, size selection and Telegram inquiry
+- `case-files.html`, `about.html`, `info.html` — editorial and buyer information
+- `data/products.json` — SINGLE point of truth for names, prices, sizes, color, images, and subject text
+- `styles.css`, `app.js` — lightweight responsive implementation
+- `assets/products/*.webp` — ONLY the user-supplied garment images, not AI illustrations
 
-## Preview
-Serve the folder with `python -m http.server 8000`. No build step is required.
+## Update a product
+Edit `data/products.json`. Prices, sizes, image sources and other data change in the UI after the next Git commit / Vercel deployment. Size and stock are intentionally provisional until verified. This is a catalog and Telegram inquiry flow, not a payment checkout.
 
-## Telegram note
-The link `https://t.me/voidkin_bot?start=<item>_<size>` opens a bot with a start parameter. It does **not** automatically reserve inventory or send an order to the brand unless that bot has an appropriate handler. Confirm the bot username and implement `/start` parsing in the bot before accepting real orders.
+## Important caveats for launch
+- The Telegram deep link `https://t.me/voidkin_bot?start=<id>_<size>` passes a payload to the bot only when a customer clicks Start; the bot must process that payload. No reservation/payment is performed on the site.
+- Confirm actual prices, inventory, fabric specifications, measurements and fulfillment policies. Enter the seller's legal identity, contact and returns address before paid sales.
+- Check bot behavior in an actual Telegram session. User-submitted information is not sent to any web server from this site.
+- Replace the simple letter favicon and typographic header with the authentic brand SVG when available.
+- In local development, use a web server because the catalog is loaded with fetch: `python -m http.server 8000`.
 
-## Product data
-In this edition product prices and sizes remain in the `PRODUCTS` array in `index.html`, consistent with the original user code. Technical composition/weight and availability have not been verified independently.
+## Audit changes
+- Removed Tailwind CDN in production, SVG product drawing generators, fake upload controls, unverified bot status, irrelevant stock promises, unsupported shipping claims, animation-heavy grain, marquee and visual gradients.
+- Added semantic links, accessible view controls, mobile menu, dark/light theme, lazy image loading, meta tags, meaningful alt text, focus states, smaller image files, robust missing-file handling.
